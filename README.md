@@ -1,5 +1,6 @@
 # tutorialFromLearnCpp
-## Practicing skills from _https://www.learncpp.com_
+## This repo is for practicing C++ skills from LearnCpp free web-site course
+The link to resource: _https://www.learncpp.com_
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="fore-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="fore-light.svg">
