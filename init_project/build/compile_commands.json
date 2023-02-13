@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/HP/Documents/prog/tutorialFromLearnCpp/init_project/build",
+  "command": "C:\\MinGW\\bin\\g++.exe   -g -o CMakeFiles\\init_project.dir\\main.cpp.obj -c C:\\Users\\HP\\Documents\\prog\\tutorialFromLearnCpp\\init_project\\main.cpp",
+  "file": "C:/Users/HP/Documents/prog/tutorialFromLearnCpp/init_project/main.cpp",
+  "output": "CMakeFiles/init_project.dir/main.cpp.obj"
+}
+]
