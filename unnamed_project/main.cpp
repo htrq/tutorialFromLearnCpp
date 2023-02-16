@@ -26,5 +26,8 @@ int main() {
     cout << depth << endl;
 
 
-    int x{5}; //in such case there should be a warning message of unused variable
+    int x{};
+    cout << "Enter number pls: ";
+    cin >> x;
+    cout << "\n Entered number is: " << x << "\n";
 }
