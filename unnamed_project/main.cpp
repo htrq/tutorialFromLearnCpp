@@ -26,8 +26,8 @@ int main() {
     cout << depth << endl;
 
 
-    int x{};
-    cout << "Enter number pls: ";
-    cin >> x;
-    cout << "Entered number is: " << x;
+    int x{}, y{};
+    cout << "Enter number two pls: ";
+    cin >> x >> y;
+    cout << "Entered numbers is: " << x << " " << y;
 }
