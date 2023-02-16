@@ -29,5 +29,5 @@ int main() {
     int x{};
     cout << "Enter number pls: ";
     cin >> x;
-    cout << "\n Entered number is: " << x << "\n";
+    cout << "Entered number is: " << x;
 }
