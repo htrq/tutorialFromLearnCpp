@@ -1,18 +1,17 @@
 #include<iostream>
 using namespace std;
 
-void doPrint()
+int getValueFromUser()
 {
-    cout << "This function is doing print\n";
+    int value;
+    cout << "Please, enter value: ";
+    cin >> value;
+    return value;
 }
 
-int main() 
+int main()
 {
-    for (int i = 0; i < 10; i++)
-    {
-        doPrint();
-    }
-    
-    
+    int num{ getValueFromUser() };
+    cout << "Entered value is: " << num << "\nProgramm ends\n";
     return 0;
 }
