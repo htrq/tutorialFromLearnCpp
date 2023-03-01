@@ -1,17 +1,16 @@
 #include<iostream>
+#include<cstdlib>
 using namespace std;
 
-int getValueFromUser()
+void sayHi()
 {
-    int value;
-    cout << "Please, enter value: ";
-    cin >> value;
-    return value;
+    cout << "Hi\n";
+    // return statement isn't needed
 }
 
 int main()
 {
-    int num{ getValueFromUser() };
-    cout << "Entered value is: " << num << "\nProgramm ends\n";
+    sayHi();
+    
     return 0;
 }
