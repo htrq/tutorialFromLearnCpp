@@ -33,4 +33,6 @@ int main()
     cout << "Enter value that need to double: ";
     cin >> numToDouble;
     cout << multiplyTwoNumbers(numToDouble, 2) << "\n";
+
+    return 0;
 }
