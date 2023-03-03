@@ -19,8 +19,14 @@ int sumTwoNumbers(int x, int y)
     return x + y;
 }
 
+int multiplyTwoNumbers(int x, int y)
+{
+    return x * y;
+}
+
 int main()
 {
     printDouble(getValueFromUser());
     cout << sumTwoNumbers(5, 10) << "\n";
+    cout << multiplyTwoNumbers(2, sumTwoNumbers(multiplyTwoNumbers(10, 10), multiplyTwoNumbers(30, 30)));
 }
