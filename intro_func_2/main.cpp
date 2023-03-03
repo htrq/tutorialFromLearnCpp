@@ -26,7 +26,11 @@ int multiplyTwoNumbers(int x, int y)
 
 int main()
 {
+    int numToDouble{};
     printDouble(getValueFromUser());
     cout << sumTwoNumbers(5, 10) << "\n";
-    cout << multiplyTwoNumbers(2, sumTwoNumbers(multiplyTwoNumbers(10, 10), multiplyTwoNumbers(30, 30)));
+    cout << multiplyTwoNumbers(2, sumTwoNumbers(multiplyTwoNumbers(10, 10), multiplyTwoNumbers(30, 30))) << "\n";
+    cout << "Enter value that need to double: ";
+    cin >> numToDouble;
+    cout << multiplyTwoNumbers(numToDouble, 2) << "\n";
 }
