@@ -7,9 +7,6 @@ int add(int a, int b);  // it's forward declaration or function prototype
 int main() 
 {
     cout << add(3,4) << "\n";
-    float a{};
-    cin >> a;
-    cout << a << "\n";
     return 0;
 }
 
