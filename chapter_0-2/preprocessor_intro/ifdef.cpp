@@ -7,8 +7,8 @@ int main()
     std::cout << "Joe\n";
     #endif
 
-    #ifdef PRINT_LOL
-    std::cout << "lol\n";   //this will be excluded as there is not lol defined 
+    #ifndef PRINT_LOL
+    std::cout << "lol\n";   //this will be compiled altogether because print_lol never been declared
     #endif
 
     return 0;
