@@ -1,6 +1,6 @@
-#include<iostream>
 #include "geometry.h"
 #include "square.h"
+#include<iostream>
 
 int main()
 {
