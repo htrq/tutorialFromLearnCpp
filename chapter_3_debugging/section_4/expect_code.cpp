@@ -1,5 +1,7 @@
 #include<iostream>
 
+
+ // This example is to check using debugger how variable x is changing
 int main()
 {
     int x{ 1 };
