@@ -1,12 +1,12 @@
-#include<iostream>
-using namespace std;
+#include <iostream>
 
-void myFunc()
+void myFcn(int x)
 {
-    cout << "Hi\n";
+    std::cout << 2 * x;
 }
 
 int main()
 {
+    myFcn(2);
     return 0;
 }
