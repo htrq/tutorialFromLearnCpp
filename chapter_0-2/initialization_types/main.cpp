@@ -1,4 +1,5 @@
 #include<iostream>
+#include <list>
 using namespace std;
 
 int main() {
@@ -6,7 +7,7 @@ int main() {
     cout << "How r u?" << endl;     //this is the second row
 
     //here is "direct initialzation"
-    int c(6);   
+    int c(3.5);   
     cout << c << endl;
 
     //in other side is "copy initialzation"
@@ -15,13 +16,18 @@ int main() {
 
     //But there is also "list initialzation" below:
     //"direct list initialzation"
-    int width{5};
+    list<int> width{5, 6, 7};
     //"copy list initialzation"
     int height = {6};
     //"value initialzation"
     int depth{};    //the value will be placed with zero
+
+
     cout << "Output list initalized values:" << endl;
-    cout << width << endl;
+    for (int i : width) 
+    {
+        cout << i << endl;
+    }
     cout << height << endl;
     cout << depth << endl;
 
