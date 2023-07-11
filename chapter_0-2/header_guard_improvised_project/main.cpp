@@ -10,5 +10,6 @@ int main()
     std::cout << raise_to_power_of_3_and_plus_2(2) << '\n';
     std::cout << '\n';
     std::cout << "love\n";
+std::cerr << "love cout was called\n";
     return 0;
 }
