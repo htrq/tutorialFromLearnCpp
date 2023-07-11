@@ -5,7 +5,10 @@
 
 int main() 
 {
+    std::unitbuf;
     std::cout << root_of_3_and_times_two(27) << " ";
-    std::cout << raise_to_power_of_3_and_plus_2(2) << "\n";
+    std::cout << raise_to_power_of_3_and_plus_2(2) << '\n';
+    std::cout << '\n';
+    std::cout << "love\n";
     return 0;
 }
