@@ -16,6 +16,9 @@ int main()
     std::cout << std::setw(16) << "fast 32 bits: " << sizeof(int_fast32_t) * 8 << "\n";
     std::cout << std::setw(16) << "fast 64 bits: " << sizeof(int_fast64_t) * 8 << "\n";
 
+    double number {1.6e-5}; //formalized to scientific documentation nubmers
+    std::cout << number << "\n";
+
     return 0;
 
 }
