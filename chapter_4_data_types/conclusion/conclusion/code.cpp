@@ -39,6 +39,22 @@ int main()
     }
 
     // task 3
+    float height {};
+    float way { 1 };
+    int time {};
+    float { 9.8 };
+    std::cout << "Please enter height where a ball will be dropped of: ";
+    std::cin >> height;
+    do
+    {
+        way += 9.8 * way;
+        height -= way;
+        time++;
+        std::cout << "The ball is at the height of " << height << " at the moment of " << time << " seconds \n";
+    }
+    while(height >= 0);
+
+
 
     return 0;
 }
