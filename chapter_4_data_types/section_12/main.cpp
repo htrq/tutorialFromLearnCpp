@@ -20,5 +20,14 @@ int main()
     std::int8_t myWierdInt{65}; // and this bro outputs char because he treat it like char, not int!
     std::cout << myWierdInt << "\n";    // output: A
 
+
+    //task 1
+    std::cout << "enter the letter: ";
+    std::cin >> letter;
+    std::cout << "Youve entered character " << letter << "\n";
+    std::cout << "In ASCII its " << static_cast<int>(letter) << "\n";
+    //task 2
+    std::cout << "Now it's in double + 0.567 = " << static_cast<double>(letter) + static_cast<double>(0.567) << "\n"; // just trying different ways to convert via stati_cast
+
     return 0;
 }
