@@ -7,7 +7,7 @@ int main()
     std::cout << letter1 << " is the same as " << letter2 << "\n";
 
 
-    // there is an important thing about cin queue 
+    // there is an important thing about cin queue
     // char can only take one symbol so another left will be queued then next cin will take queued chars
     std::cout << "Enter value for two chars: ";
     std::cin >> example1;   // for example user enters 'abcd' this only takes first symbol 'a'
