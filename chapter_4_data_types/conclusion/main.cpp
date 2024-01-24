@@ -19,16 +19,26 @@ int main()
     std::cout << "Choose operation: + - * / " << "\n";
     std::cin >> operation;
 
-    if (operation == '+')   // bro remember single quotes for char initailzation!
+    switch(operation)
+    {
+    case '+':
         std::cout << n1 + n2 << "\n";
-    else if (operation == '-')
+        break;
+    case '-':
         std::cout << n1 - n2 << "\n";
-    else if (operation == '*')
+        break;
+    case '*':
         std::cout << n1 * n2 << "\n";
-    else if (operation == '/')
+        break;
+    case '/':
         std::cout << n1 / n2 << "\n";
-    else
-        std::cout << "wrong operation provided\n";
+        break;
+    default:
+        std::cout << "wrong operation was provided\n";
+        break;
+    }
+
+    // task 3
 
     return 0;
 }
