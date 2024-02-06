@@ -1,0 +1,7 @@
+/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_5_constants_and_strings/qtproject/build-project_for_learn-123-Debug/CMakeFiles/project_for_learn.dir
+/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_5_constants_and_strings/qtproject/build-project_for_learn-123-Debug/CMakeFiles/edit_cache.dir
+/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_5_constants_and_strings/qtproject/build-project_for_learn-123-Debug/CMakeFiles/rebuild_cache.dir
+/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_5_constants_and_strings/qtproject/build-project_for_learn-123-Debug/CMakeFiles/list_install_components.dir
+/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_5_constants_and_strings/qtproject/build-project_for_learn-123-Debug/CMakeFiles/install.dir
+/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_5_constants_and_strings/qtproject/build-project_for_learn-123-Debug/CMakeFiles/install/local.dir
+/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_5_constants_and_strings/qtproject/build-project_for_learn-123-Debug/CMakeFiles/install/strip.dir

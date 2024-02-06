@@ -1,0 +1,61 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-70edc211342b54df2e37.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "project_for_learn",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "project_for_learn::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-project_for_learn-Debug-aead122a8f426c77cc88.json",
+					"name" : "project_for_learn",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_5_constants_and_strings/qtproject/build-project_for_learn-123-Debug",
+		"source" : "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_5_constants_and_strings/qtproject/project_for_learn"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
