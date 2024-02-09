@@ -2,6 +2,7 @@
 #include <string>
 #include <string_view>
 #include <type_traits>
+#include <math.h>
 
 void printStringView(std::string_view str)
 {
@@ -15,7 +16,7 @@ void printStringView(std::string_view str)
 int main()
 {
     using namespace std::literals;  // makes s literals
-    using namespace std::string_view_literals;  // makes sv literals
+    //using namespace std::string_view_literals;  // makes sv literals
 
     std::string some_variable{ "text here " };   // copy initialzation is slow unlike fundamential variables
     std::cout << some_variable << '\n';
@@ -42,6 +43,11 @@ int main()
     std::string_view view_name2 { name2 };
     name2 = "!!!2text!!!";  // !!!2t definitely undefined behavior here
     std::cout << view_name2 << '\n';
+
+    // and finally in the end there is some modification functions for string variables
+    name.remove_suffix(1);
+    name.remove_prefix(1);
+    std::cout << name << '\n';  // ape
 
     return 0;
 }
