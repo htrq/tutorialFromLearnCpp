@@ -13,6 +13,9 @@ void printStringView(std::string_view str)
 
 int main()
 {
+    using namespace std::literals;  // makes s literals
+    using namespace std::string_view_literals;  // makes sv literals
+
     std::string some_variable{ "text here " };   // copy initialzation is slow unlike fundamential variables
     std::cout << some_variable << '\n';
 
@@ -23,7 +26,11 @@ int main()
     std::string_view some_variable3{ some_variable };   // can be initalized with string
     std::cout << some_variable3 << '\n';
 
-
+    std::string some_variable4{ "read-only text" };
+    std::string_view some_variable5 { some_variable4 };  // now viewing string we put in braces
+    some_variable5 = "random text"; // not changing variable but viewing another literal
+    std::cout << some_variable4 << '\n';    // read-only text
+    std::cout << some_variable5 << '\n';    // random text
 
     return 0;
 }
