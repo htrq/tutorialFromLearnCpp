@@ -49,6 +49,16 @@ CMakeFiles/project_for_learn.dir/section10/main.cpp.o: /home/mikhail/Programming
   /usr/include/c++/12/type_traits \
   /usr/include/c++/12/bits/nested_exception.h \
   /usr/include/c++/12/bits/char_traits.h \
+  /usr/include/c++/12/compare \
+  /usr/include/c++/12/concepts \
+  /usr/include/c++/12/bits/stl_construct.h \
+  /usr/include/c++/12/bits/stl_iterator_base_types.h \
+  /usr/include/c++/12/bits/iterator_concepts.h \
+  /usr/include/c++/12/bits/ptr_traits.h \
+  /usr/include/c++/12/bits/ranges_cmp.h \
+  /usr/include/c++/12/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/12/bits/concept_check.h \
+  /usr/include/c++/12/debug/assertions.h \
   /usr/include/c++/12/cstdint \
   /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h \
   /usr/include/stdint.h \
@@ -107,13 +117,8 @@ CMakeFiles/project_for_learn.dir/section10/main.cpp.o: /home/mikhail/Programming
   /usr/include/c++/12/bits/cpp_type_traits.h \
   /usr/include/c++/12/bits/ostream_insert.h \
   /usr/include/c++/12/bits/cxxabi_forced.h \
-  /usr/include/c++/12/bits/stl_iterator_base_types.h \
-  /usr/include/c++/12/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/12/bits/concept_check.h \
-  /usr/include/c++/12/debug/assertions.h \
   /usr/include/c++/12/bits/stl_iterator.h \
   /usr/include/c++/12/ext/type_traits.h \
-  /usr/include/c++/12/bits/ptr_traits.h \
   /usr/include/c++/12/bits/stl_function.h \
   /usr/include/c++/12/backward/binders.h \
   /usr/include/c++/12/ext/numeric_traits.h \
@@ -129,9 +134,11 @@ CMakeFiles/project_for_learn.dir/section10/main.cpp.o: /home/mikhail/Programming
   /usr/include/c++/12/bits/basic_string.h \
   /usr/include/c++/12/ext/alloc_traits.h \
   /usr/include/c++/12/bits/alloc_traits.h \
-  /usr/include/c++/12/bits/stl_construct.h \
   /usr/include/c++/12/string_view \
   /usr/include/c++/12/bits/functional_hash.h \
+  /usr/include/c++/12/bits/ranges_base.h \
+  /usr/include/c++/12/bits/max_size_type.h \
+  /usr/include/c++/12/numbers \
   /usr/include/c++/12/bits/string_view.tcc \
   /usr/include/c++/12/ext/string_conversions.h \
   /usr/include/c++/12/cstdlib \
@@ -248,27 +255,33 @@ CMakeFiles/project_for_learn.dir/section10/main.cpp.o: /home/mikhail/Programming
 
 /usr/include/c++/12/bits/string_view.tcc:
 
+/usr/include/c++/12/bits/max_size_type.h:
+
+/usr/include/c++/12/bits/ranges_base.h:
+
 /usr/include/stdio.h:
 
 /usr/include/c++/12/bits/functional_hash.h:
 
-/usr/include/c++/12/bits/stl_construct.h:
-
 /usr/include/c++/12/bits/alloc_traits.h:
 
-/usr/include/x86_64-linux-gnu/bits/time64.h:
+/usr/include/c++/12/ext/alloc_traits.h:
 
-/usr/include/c++/12/bits/hash_bytes.h:
+/usr/include/c++/12/initializer_list:
 
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+/usr/include/c++/12/debug/debug.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h:
+/usr/include/c++/12/compare:
 
 /usr/include/c++/12/bits/char_traits.h:
 
 /usr/include/stdint.h:
 
 /usr/include/c++/12/bits/nested_exception.h:
+
+/usr/include/c++/12/bits/hash_bytes.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /usr/include/c++/12/typeinfo:
 
@@ -304,7 +317,17 @@ CMakeFiles/project_for_learn.dir/section10/main.cpp.o: /home/mikhail/Programming
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
+/usr/include/c++/12/bits/ptr_traits.h:
+
+/usr/include/c++/12/numbers:
+
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/c++/12/bits/locale_classes.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/usr/include/c++/12/bits/exception.h:
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
@@ -314,23 +337,15 @@ CMakeFiles/project_for_learn.dir/section10/main.cpp.o: /home/mikhail/Programming
 
 /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h:
 
-/usr/include/c++/12/ext/alloc_traits.h:
+/usr/include/c++/12/bits/basic_string.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+/usr/include/c++/12/bits/iterator_concepts.h:
 
-/usr/include/x86_64-linux-gnu/bits/types.h:
+/usr/include/c++/12/ext/type_traits.h:
 
-/usr/include/c++/12/bits/locale_classes.tcc:
+/usr/include/c++/12/bits/concept_check.h:
 
-/usr/include/c++/12/bits/exception.h:
-
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
-/usr/include/c++/12/bits/ptr_traits.h:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+/usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h:
 
 /usr/include/c++/12/new:
 
@@ -356,12 +371,6 @@ CMakeFiles/project_for_learn.dir/section10/main.cpp.o: /home/mikhail/Programming
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/c++/12/bits/c++locale.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
 /usr/include/c++/12/bits/stl_pair.h:
 
 /usr/include/features.h:
@@ -370,9 +379,13 @@ CMakeFiles/project_for_learn.dir/section10/main.cpp.o: /home/mikhail/Programming
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
+/usr/include/c++/12/bits/stl_iterator_base_funcs.h:
+
 /usr/include/c++/12/bits/move.h:
 
 /usr/include/stdc-predef.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
@@ -388,19 +401,23 @@ CMakeFiles/project_for_learn.dir/section10/main.cpp.o: /home/mikhail/Programming
 
 /usr/include/pthread.h:
 
+/usr/include/x86_64-linux-gnu/c++/12/bits/ctype_base.h:
+
+/usr/include/c++/12/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/12/bits/cxxabi_forced.h:
+
 /usr/include/c++/12/ostream:
 
+/usr/include/c++/12/bits/stl_construct.h:
+
+/usr/include/c++/12/cerrno:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/c++/12/bits/refwrap.h:
+
 /usr/include/c++/12/ios:
-
-/usr/include/c++/12/istream:
-
-/usr/include/c++/12/stdexcept:
-
-/usr/include/c++/12/string_view:
-
-/usr/include/c++/12/cctype:
-
-/usr/include/features-time64.h:
 
 /usr/include/linux/errno.h:
 
@@ -419,6 +436,34 @@ CMakeFiles/project_for_learn.dir/section10/main.cpp.o: /home/mikhail/Programming
 /usr/include/x86_64-linux-gnu/c++/12/bits/ctype_inline.h:
 
 /usr/include/wchar.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/x86_64-linux-gnu/c++/12/bits/c++locale.h:
+
+/usr/include/c++/12/istream:
+
+/usr/include/c++/12/stdexcept:
+
+/usr/include/c++/12/string_view:
+
+/usr/include/features-time64.h:
+
+/usr/include/c++/12/cctype:
 
 /usr/include/c++/12/bits/localefwd.h:
 
@@ -452,6 +497,8 @@ CMakeFiles/project_for_learn.dir/section10/main.cpp.o: /home/mikhail/Programming
 
 /usr/include/c++/12/bits/locale_facets.tcc:
 
+/usr/include/c++/12/bits/ranges_cmp.h:
+
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
@@ -459,6 +506,10 @@ CMakeFiles/project_for_learn.dir/section10/main.cpp.o: /home/mikhail/Programming
 /usr/include/c++/12/bits/postypes.h:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
+/usr/include/c++/12/bits/range_access.h:
+
+/usr/include/time.h:
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
@@ -480,15 +531,11 @@ CMakeFiles/project_for_learn.dir/section10/main.cpp.o: /home/mikhail/Programming
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/usr/include/c++/12/initializer_list:
-
-/usr/include/x86_64-linux-gnu/c++/12/bits/atomic_word.h:
+/usr/include/c++/12/string:
 
 /usr/include/c++/12/ext/atomicity.h:
 
-/usr/include/c++/12/string:
+/usr/include/x86_64-linux-gnu/c++/12/bits/atomic_word.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
@@ -510,44 +557,18 @@ CMakeFiles/project_for_learn.dir/section10/main.cpp.o: /home/mikhail/Programming
 
 /usr/include/c++/12/bits/cpp_type_traits.h:
 
+/usr/include/c++/12/concepts:
+
 /usr/include/c++/12/bits/new_allocator.h:
 
-/usr/include/c++/12/bits/cxxabi_forced.h:
+/usr/include/c++/12/bits/invoke.h:
 
-/usr/include/x86_64-linux-gnu/c++/12/bits/ctype_base.h:
+/usr/include/c++/12/bits/predefined_ops.h:
 
-/usr/include/c++/12/bits/stl_iterator_base_types.h:
-
-/usr/include/c++/12/bits/stl_iterator_base_funcs.h:
-
-/usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h:
-
-/usr/include/c++/12/bits/concept_check.h:
-
-/usr/include/c++/12/debug/debug.h:
+/usr/include/c++/12/bits/functexcept.h:
 
 /usr/include/c++/12/bits/stl_function.h:
 
 /usr/include/c++/12/pstl/pstl_config.h:
 
 /usr/include/c++/12/ext/numeric_traits.h:
-
-/usr/include/c++/12/cerrno:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/c++/12/bits/refwrap.h:
-
-/usr/include/c++/12/bits/predefined_ops.h:
-
-/usr/include/c++/12/bits/functexcept.h:
-
-/usr/include/c++/12/bits/invoke.h:
-
-/usr/include/time.h:
-
-/usr/include/c++/12/bits/range_access.h:
-
-/usr/include/c++/12/ext/type_traits.h:
-
-/usr/include/c++/12/bits/basic_string.h:

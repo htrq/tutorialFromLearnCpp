@@ -11,6 +11,7 @@ void printStringView(std::string_view str)
         std::cout << str << '\n';
 }
 
+
 int main()
 {
     using namespace std::literals;  // makes s literals
@@ -31,6 +32,16 @@ int main()
     some_variable5 = "random text"; // not changing variable but viewing another literal
     std::cout << some_variable4 << '\n';    // read-only text
     std::cout << some_variable5 << '\n';    // random text
+
+
+
+    std::string_view name { "yapee"s };  // its not okay to initialize sv with string literal but okay with c-string type
+    std::cout << name << '\n';           // may lead to undefinded behavior because initializer string destoyed
+
+    std::string name2 { "1text" };
+    std::string_view view_name2 { name2 };
+    name2 = "!!!2text!!!";  // !!!2t definitely undefined behavior here
+    std::cout << view_name2 << '\n';
 
     return 0;
 }
