@@ -69,28 +69,28 @@ include CMakeFiles/project_for_learn.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/project_for_learn.dir/flags.make
 
-CMakeFiles/project_for_learn.dir/section10/main.cpp.o: CMakeFiles/project_for_learn.dir/flags.make
-CMakeFiles/project_for_learn.dir/section10/main.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_5_constants_and_strings/qtproject/project_for_learn/section10/main.cpp
-CMakeFiles/project_for_learn.dir/section10/main.cpp.o: CMakeFiles/project_for_learn.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_5_constants_and_strings/qtproject/build-project_for_learn-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/project_for_learn.dir/section10/main.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project_for_learn.dir/section10/main.cpp.o -MF CMakeFiles/project_for_learn.dir/section10/main.cpp.o.d -o CMakeFiles/project_for_learn.dir/section10/main.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_5_constants_and_strings/qtproject/project_for_learn/section10/main.cpp
+CMakeFiles/project_for_learn.dir/conclusion/main.cpp.o: CMakeFiles/project_for_learn.dir/flags.make
+CMakeFiles/project_for_learn.dir/conclusion/main.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_5_constants_and_strings/qtproject/project_for_learn/conclusion/main.cpp
+CMakeFiles/project_for_learn.dir/conclusion/main.cpp.o: CMakeFiles/project_for_learn.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_5_constants_and_strings/qtproject/build-project_for_learn-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/project_for_learn.dir/conclusion/main.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/project_for_learn.dir/conclusion/main.cpp.o -MF CMakeFiles/project_for_learn.dir/conclusion/main.cpp.o.d -o CMakeFiles/project_for_learn.dir/conclusion/main.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_5_constants_and_strings/qtproject/project_for_learn/conclusion/main.cpp
 
-CMakeFiles/project_for_learn.dir/section10/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_for_learn.dir/section10/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_5_constants_and_strings/qtproject/project_for_learn/section10/main.cpp > CMakeFiles/project_for_learn.dir/section10/main.cpp.i
+CMakeFiles/project_for_learn.dir/conclusion/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project_for_learn.dir/conclusion/main.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_5_constants_and_strings/qtproject/project_for_learn/conclusion/main.cpp > CMakeFiles/project_for_learn.dir/conclusion/main.cpp.i
 
-CMakeFiles/project_for_learn.dir/section10/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_for_learn.dir/section10/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_5_constants_and_strings/qtproject/project_for_learn/section10/main.cpp -o CMakeFiles/project_for_learn.dir/section10/main.cpp.s
+CMakeFiles/project_for_learn.dir/conclusion/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project_for_learn.dir/conclusion/main.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_5_constants_and_strings/qtproject/project_for_learn/conclusion/main.cpp -o CMakeFiles/project_for_learn.dir/conclusion/main.cpp.s
 
 # Object files for target project_for_learn
 project_for_learn_OBJECTS = \
-"CMakeFiles/project_for_learn.dir/section10/main.cpp.o"
+"CMakeFiles/project_for_learn.dir/conclusion/main.cpp.o"
 
 # External object files for target project_for_learn
 project_for_learn_EXTERNAL_OBJECTS =
 
-project_for_learn: CMakeFiles/project_for_learn.dir/section10/main.cpp.o
+project_for_learn: CMakeFiles/project_for_learn.dir/conclusion/main.cpp.o
 project_for_learn: CMakeFiles/project_for_learn.dir/build.make
 project_for_learn: CMakeFiles/project_for_learn.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_5_constants_and_strings/qtproject/build-project_for_learn-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable project_for_learn"

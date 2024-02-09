@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_5_constants_and_strings/qtproject/project_for_learn/section10/main.cpp" "CMakeFiles/project_for_learn.dir/section10/main.cpp.o" "gcc" "CMakeFiles/project_for_learn.dir/section10/main.cpp.o.d"
+  "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_5_constants_and_strings/qtproject/project_for_learn/conclusion/main.cpp" "CMakeFiles/project_for_learn.dir/conclusion/main.cpp.o" "gcc" "CMakeFiles/project_for_learn.dir/conclusion/main.cpp.o.d"
   )
 
 # Targets to which this target links.

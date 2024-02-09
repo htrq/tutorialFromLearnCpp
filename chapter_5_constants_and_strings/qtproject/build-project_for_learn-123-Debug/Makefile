@@ -174,29 +174,29 @@ project_for_learn/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_for_learn.dir/build.make CMakeFiles/project_for_learn.dir/build
 .PHONY : project_for_learn/fast
 
-section10/main.o: section10/main.cpp.o
-.PHONY : section10/main.o
+conclusion/main.o: conclusion/main.cpp.o
+.PHONY : conclusion/main.o
 
 # target to build an object file
-section10/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_for_learn.dir/build.make CMakeFiles/project_for_learn.dir/section10/main.cpp.o
-.PHONY : section10/main.cpp.o
+conclusion/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_for_learn.dir/build.make CMakeFiles/project_for_learn.dir/conclusion/main.cpp.o
+.PHONY : conclusion/main.cpp.o
 
-section10/main.i: section10/main.cpp.i
-.PHONY : section10/main.i
+conclusion/main.i: conclusion/main.cpp.i
+.PHONY : conclusion/main.i
 
 # target to preprocess a source file
-section10/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_for_learn.dir/build.make CMakeFiles/project_for_learn.dir/section10/main.cpp.i
-.PHONY : section10/main.cpp.i
+conclusion/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_for_learn.dir/build.make CMakeFiles/project_for_learn.dir/conclusion/main.cpp.i
+.PHONY : conclusion/main.cpp.i
 
-section10/main.s: section10/main.cpp.s
-.PHONY : section10/main.s
+conclusion/main.s: conclusion/main.cpp.s
+.PHONY : conclusion/main.s
 
 # target to generate assembly for a file
-section10/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_for_learn.dir/build.make CMakeFiles/project_for_learn.dir/section10/main.cpp.s
-.PHONY : section10/main.cpp.s
+conclusion/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_for_learn.dir/build.make CMakeFiles/project_for_learn.dir/conclusion/main.cpp.s
+.PHONY : conclusion/main.cpp.s
 
 # Help Target
 help:
@@ -211,9 +211,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... project_for_learn"
-	@echo "... section10/main.o"
-	@echo "... section10/main.i"
-	@echo "... section10/main.s"
+	@echo "... conclusion/main.o"
+	@echo "... conclusion/main.i"
+	@echo "... conclusion/main.s"
 .PHONY : help
 
 
