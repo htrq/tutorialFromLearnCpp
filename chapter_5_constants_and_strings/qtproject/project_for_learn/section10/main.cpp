@@ -1,10 +1,14 @@
 #include <iostream>
 #include <string>
 #include <string_view>
+#include <type_traits>
 
 void printStringView(std::string_view str)
 {
-    std::cout << str << '\n';
+    if (std::__is_constant_evaluated())
+        std::cout << "function is somehow constant!\n"; // this row i've added just to check if c++20 flag works
+    else
+        std::cout << str << '\n';
 }
 
 int main()
@@ -18,6 +22,8 @@ int main()
 
     std::string_view some_variable3{ some_variable };   // can be initalized with string
     std::cout << some_variable3 << '\n';
+
+
 
     return 0;
 }
