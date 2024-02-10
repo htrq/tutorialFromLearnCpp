@@ -1,3 +1,4 @@
+#include "ask_for_age.h"
 #include <iostream>
 
 // gets tower height from user and returns it
@@ -40,6 +41,7 @@ void printCalculatedBallHeight(double towerHeight, int seconds)
 
 int main()
 {
+    // 1 task
     double towerHeight{ getTowerHeight() };
 
     printCalculatedBallHeight(towerHeight, 0);
@@ -48,6 +50,10 @@ int main()
     printCalculatedBallHeight(towerHeight, 3);
     printCalculatedBallHeight(towerHeight, 4);
     printCalculatedBallHeight(towerHeight, 5);
+    // 2 task
+    ask_and_return_biggest_of_two_ages();
+
+
 
     return 0;
 }

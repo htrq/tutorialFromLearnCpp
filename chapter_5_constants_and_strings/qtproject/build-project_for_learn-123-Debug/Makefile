@@ -174,6 +174,30 @@ project_for_learn/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_for_learn.dir/build.make CMakeFiles/project_for_learn.dir/build
 .PHONY : project_for_learn/fast
 
+conclusion/ask_for_age.o: conclusion/ask_for_age.cpp.o
+.PHONY : conclusion/ask_for_age.o
+
+# target to build an object file
+conclusion/ask_for_age.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_for_learn.dir/build.make CMakeFiles/project_for_learn.dir/conclusion/ask_for_age.cpp.o
+.PHONY : conclusion/ask_for_age.cpp.o
+
+conclusion/ask_for_age.i: conclusion/ask_for_age.cpp.i
+.PHONY : conclusion/ask_for_age.i
+
+# target to preprocess a source file
+conclusion/ask_for_age.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_for_learn.dir/build.make CMakeFiles/project_for_learn.dir/conclusion/ask_for_age.cpp.i
+.PHONY : conclusion/ask_for_age.cpp.i
+
+conclusion/ask_for_age.s: conclusion/ask_for_age.cpp.s
+.PHONY : conclusion/ask_for_age.s
+
+# target to generate assembly for a file
+conclusion/ask_for_age.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_for_learn.dir/build.make CMakeFiles/project_for_learn.dir/conclusion/ask_for_age.cpp.s
+.PHONY : conclusion/ask_for_age.cpp.s
+
 conclusion/main.o: conclusion/main.cpp.o
 .PHONY : conclusion/main.o
 
@@ -211,6 +235,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... project_for_learn"
+	@echo "... conclusion/ask_for_age.o"
+	@echo "... conclusion/ask_for_age.i"
+	@echo "... conclusion/ask_for_age.s"
 	@echo "... conclusion/main.o"
 	@echo "... conclusion/main.i"
 	@echo "... conclusion/main.s"
