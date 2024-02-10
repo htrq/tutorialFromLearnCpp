@@ -10,13 +10,13 @@ double getTowerHeight()
 }
 
 // Returns ball height from ground after "seconds" seconds
-double calculateBallHeight(double towerHeight, int seconds)
+constexpr double calculateBallHeight(double towerHeight, int seconds)
 {
     const double gravity{ 9.8 };
 
     // Using formula: [ s = u * t + (a * t^2) / 2 ], here u(initial velocity) = 0
-    double distanceFallen{ (gravity * (seconds * seconds)) / 2.0 };
-    double currentHeight{ towerHeight - distanceFallen };
+    const double distanceFallen{ (gravity * (seconds * seconds)) / 2.0 };
+    const double currentHeight{ towerHeight - distanceFallen };
 
     return currentHeight;
 }
