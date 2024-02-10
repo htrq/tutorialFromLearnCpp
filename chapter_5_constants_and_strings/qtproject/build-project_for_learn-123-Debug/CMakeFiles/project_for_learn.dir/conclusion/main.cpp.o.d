@@ -153,4 +153,5 @@ CMakeFiles/project_for_learn.dir/conclusion/main.cpp.o: \
  /usr/include/c++/12/bits/locale_facets.tcc \
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
- /usr/include/c++/12/bits/istream.tcc
+ /usr/include/c++/12/bits/istream.tcc \
+ /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_5_constants_and_strings/qtproject/project_for_learn/conclusion/maria_apples.h

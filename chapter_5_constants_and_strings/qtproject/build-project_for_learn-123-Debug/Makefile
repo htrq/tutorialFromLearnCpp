@@ -222,6 +222,30 @@ conclusion/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_for_learn.dir/build.make CMakeFiles/project_for_learn.dir/conclusion/main.cpp.s
 .PHONY : conclusion/main.cpp.s
 
+conclusion/maria_apples.o: conclusion/maria_apples.cpp.o
+.PHONY : conclusion/maria_apples.o
+
+# target to build an object file
+conclusion/maria_apples.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_for_learn.dir/build.make CMakeFiles/project_for_learn.dir/conclusion/maria_apples.cpp.o
+.PHONY : conclusion/maria_apples.cpp.o
+
+conclusion/maria_apples.i: conclusion/maria_apples.cpp.i
+.PHONY : conclusion/maria_apples.i
+
+# target to preprocess a source file
+conclusion/maria_apples.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_for_learn.dir/build.make CMakeFiles/project_for_learn.dir/conclusion/maria_apples.cpp.i
+.PHONY : conclusion/maria_apples.cpp.i
+
+conclusion/maria_apples.s: conclusion/maria_apples.cpp.s
+.PHONY : conclusion/maria_apples.s
+
+# target to generate assembly for a file
+conclusion/maria_apples.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_for_learn.dir/build.make CMakeFiles/project_for_learn.dir/conclusion/maria_apples.cpp.s
+.PHONY : conclusion/maria_apples.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -241,6 +265,9 @@ help:
 	@echo "... conclusion/main.o"
 	@echo "... conclusion/main.i"
 	@echo "... conclusion/main.s"
+	@echo "... conclusion/maria_apples.o"
+	@echo "... conclusion/maria_apples.i"
+	@echo "... conclusion/maria_apples.s"
 .PHONY : help
 
 

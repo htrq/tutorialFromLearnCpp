@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/project_for_learn.dir/conclusion/main.cpp.o CMakeFiles/project_for_learn.dir/conclusion/ask_for_age.cpp.o -o project_for_learn 
+/usr/bin/g++ -g CMakeFiles/project_for_learn.dir/conclusion/main.cpp.o CMakeFiles/project_for_learn.dir/conclusion/ask_for_age.cpp.o CMakeFiles/project_for_learn.dir/conclusion/maria_apples.cpp.o -o project_for_learn 

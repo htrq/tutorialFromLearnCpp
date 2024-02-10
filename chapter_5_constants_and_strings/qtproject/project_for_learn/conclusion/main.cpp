@@ -1,4 +1,5 @@
 #include "ask_for_age.h"
+#include "maria_apples.h"
 #include <iostream>
 
 // gets tower height from user and returns it
@@ -53,6 +54,15 @@ int main()
     // 2 task
     ask_and_return_biggest_of_two_ages();
 
+    // 3 task
+    constexpr int maryApples { 3 };
+    std::cout << "Mary has " << getQuantityPhrase(maryApples) << ' ' << getApplesPluralized(maryApples) << ".\n";
+
+    std::cout << "How many apples do you have? ";
+    int numApples{};
+    std::cin >> numApples;
+
+    std::cout << "You have " << getQuantityPhrase(numApples) << ' ' << getApplesPluralized(numApples) << ".\n";
 
 
     return 0;
