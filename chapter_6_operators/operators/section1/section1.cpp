@@ -1,4 +1,5 @@
-#include "section_one.h"
+#include "section1.h"
+#include <iostream>
 
 int getValue()
 {
@@ -13,7 +14,7 @@ void printCalculation(int x, int y, int z)
 {
     std::cout << x + (y * z) << '\n';
 }
-void section_one()
+void section1()
 {
     int a{ getValue() }; // will execute first
     int b{ getValue() }; // will execute second

@@ -9,7 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/operators/main.cpp" "CMakeFiles/operators.dir/main.cpp.o" "gcc" "CMakeFiles/operators.dir/main.cpp.o.d"
-  "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/operators/section1/section_one.cpp" "CMakeFiles/operators.dir/section1/section_one.cpp.o" "gcc" "CMakeFiles/operators.dir/section1/section_one.cpp.o.d"
+  "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/operators/section1/section1.cpp" "CMakeFiles/operators.dir/section1/section1.cpp.o" "gcc" "CMakeFiles/operators.dir/section1/section1.cpp.o.d"
+  "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/operators/section2/section2.cpp" "CMakeFiles/operators.dir/section2/section2.cpp.o" "gcc" "CMakeFiles/operators.dir/section2/section2.cpp.o.d"
   )
 
 # Targets to which this target links.

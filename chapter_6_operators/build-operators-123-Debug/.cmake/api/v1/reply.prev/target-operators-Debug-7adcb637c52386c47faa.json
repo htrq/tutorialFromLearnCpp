@@ -130,12 +130,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "section1/section_one.cpp",
+			"path" : "section1/section1.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "section1/section_one.h",
+			"path" : "section1/section1.h",
 			"sourceGroupIndex" : 1
 		}
 	],

@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/operators.dir/main.cpp.o"
   "CMakeFiles/operators.dir/main.cpp.o.d"
-  "CMakeFiles/operators.dir/section1/section_one.cpp.o"
-  "CMakeFiles/operators.dir/section1/section_one.cpp.o.d"
+  "CMakeFiles/operators.dir/section1/section1.cpp.o"
+  "CMakeFiles/operators.dir/section1/section1.cpp.o.d"
+  "CMakeFiles/operators.dir/section2/section2.cpp.o"
+  "CMakeFiles/operators.dir/section2/section2.cpp.o.d"
   "operators"
   "operators.pdb"
 )

@@ -1,1 +1,1 @@
-/usr/bin/g++ -g CMakeFiles/operators.dir/main.cpp.o CMakeFiles/operators.dir/section1/section_one.cpp.o -o operators 
+/usr/bin/g++ -g CMakeFiles/operators.dir/main.cpp.o CMakeFiles/operators.dir/section1/section1.cpp.o CMakeFiles/operators.dir/section2/section2.cpp.o -o operators 

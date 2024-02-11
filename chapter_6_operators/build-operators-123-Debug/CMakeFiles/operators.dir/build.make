@@ -83,33 +83,49 @@ CMakeFiles/operators.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/operators.dir/main.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/operators/main.cpp -o CMakeFiles/operators.dir/main.cpp.s
 
-CMakeFiles/operators.dir/section1/section_one.cpp.o: CMakeFiles/operators.dir/flags.make
-CMakeFiles/operators.dir/section1/section_one.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/operators/section1/section_one.cpp
-CMakeFiles/operators.dir/section1/section_one.cpp.o: CMakeFiles/operators.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/build-operators-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/operators.dir/section1/section_one.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/operators.dir/section1/section_one.cpp.o -MF CMakeFiles/operators.dir/section1/section_one.cpp.o.d -o CMakeFiles/operators.dir/section1/section_one.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/operators/section1/section_one.cpp
+CMakeFiles/operators.dir/section1/section1.cpp.o: CMakeFiles/operators.dir/flags.make
+CMakeFiles/operators.dir/section1/section1.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/operators/section1/section1.cpp
+CMakeFiles/operators.dir/section1/section1.cpp.o: CMakeFiles/operators.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/build-operators-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/operators.dir/section1/section1.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/operators.dir/section1/section1.cpp.o -MF CMakeFiles/operators.dir/section1/section1.cpp.o.d -o CMakeFiles/operators.dir/section1/section1.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/operators/section1/section1.cpp
 
-CMakeFiles/operators.dir/section1/section_one.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/operators.dir/section1/section_one.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/operators/section1/section_one.cpp > CMakeFiles/operators.dir/section1/section_one.cpp.i
+CMakeFiles/operators.dir/section1/section1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/operators.dir/section1/section1.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/operators/section1/section1.cpp > CMakeFiles/operators.dir/section1/section1.cpp.i
 
-CMakeFiles/operators.dir/section1/section_one.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/operators.dir/section1/section_one.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/operators/section1/section_one.cpp -o CMakeFiles/operators.dir/section1/section_one.cpp.s
+CMakeFiles/operators.dir/section1/section1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/operators.dir/section1/section1.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/operators/section1/section1.cpp -o CMakeFiles/operators.dir/section1/section1.cpp.s
+
+CMakeFiles/operators.dir/section2/section2.cpp.o: CMakeFiles/operators.dir/flags.make
+CMakeFiles/operators.dir/section2/section2.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/operators/section2/section2.cpp
+CMakeFiles/operators.dir/section2/section2.cpp.o: CMakeFiles/operators.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/build-operators-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/operators.dir/section2/section2.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/operators.dir/section2/section2.cpp.o -MF CMakeFiles/operators.dir/section2/section2.cpp.o.d -o CMakeFiles/operators.dir/section2/section2.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/operators/section2/section2.cpp
+
+CMakeFiles/operators.dir/section2/section2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/operators.dir/section2/section2.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/operators/section2/section2.cpp > CMakeFiles/operators.dir/section2/section2.cpp.i
+
+CMakeFiles/operators.dir/section2/section2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/operators.dir/section2/section2.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/operators/section2/section2.cpp -o CMakeFiles/operators.dir/section2/section2.cpp.s
 
 # Object files for target operators
 operators_OBJECTS = \
 "CMakeFiles/operators.dir/main.cpp.o" \
-"CMakeFiles/operators.dir/section1/section_one.cpp.o"
+"CMakeFiles/operators.dir/section1/section1.cpp.o" \
+"CMakeFiles/operators.dir/section2/section2.cpp.o"
 
 # External object files for target operators
 operators_EXTERNAL_OBJECTS =
 
 operators: CMakeFiles/operators.dir/main.cpp.o
-operators: CMakeFiles/operators.dir/section1/section_one.cpp.o
+operators: CMakeFiles/operators.dir/section1/section1.cpp.o
+operators: CMakeFiles/operators.dir/section2/section2.cpp.o
 operators: CMakeFiles/operators.dir/build.make
 operators: CMakeFiles/operators.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/build-operators-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable operators"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/build-operators-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable operators"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/operators.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

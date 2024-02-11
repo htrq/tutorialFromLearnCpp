@@ -198,29 +198,53 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/operators.dir/build.make CMakeFiles/operators.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-section1/section_one.o: section1/section_one.cpp.o
-.PHONY : section1/section_one.o
+section1/section1.o: section1/section1.cpp.o
+.PHONY : section1/section1.o
 
 # target to build an object file
-section1/section_one.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/operators.dir/build.make CMakeFiles/operators.dir/section1/section_one.cpp.o
-.PHONY : section1/section_one.cpp.o
+section1/section1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/operators.dir/build.make CMakeFiles/operators.dir/section1/section1.cpp.o
+.PHONY : section1/section1.cpp.o
 
-section1/section_one.i: section1/section_one.cpp.i
-.PHONY : section1/section_one.i
+section1/section1.i: section1/section1.cpp.i
+.PHONY : section1/section1.i
 
 # target to preprocess a source file
-section1/section_one.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/operators.dir/build.make CMakeFiles/operators.dir/section1/section_one.cpp.i
-.PHONY : section1/section_one.cpp.i
+section1/section1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/operators.dir/build.make CMakeFiles/operators.dir/section1/section1.cpp.i
+.PHONY : section1/section1.cpp.i
 
-section1/section_one.s: section1/section_one.cpp.s
-.PHONY : section1/section_one.s
+section1/section1.s: section1/section1.cpp.s
+.PHONY : section1/section1.s
 
 # target to generate assembly for a file
-section1/section_one.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/operators.dir/build.make CMakeFiles/operators.dir/section1/section_one.cpp.s
-.PHONY : section1/section_one.cpp.s
+section1/section1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/operators.dir/build.make CMakeFiles/operators.dir/section1/section1.cpp.s
+.PHONY : section1/section1.cpp.s
+
+section2/section2.o: section2/section2.cpp.o
+.PHONY : section2/section2.o
+
+# target to build an object file
+section2/section2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/operators.dir/build.make CMakeFiles/operators.dir/section2/section2.cpp.o
+.PHONY : section2/section2.cpp.o
+
+section2/section2.i: section2/section2.cpp.i
+.PHONY : section2/section2.i
+
+# target to preprocess a source file
+section2/section2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/operators.dir/build.make CMakeFiles/operators.dir/section2/section2.cpp.i
+.PHONY : section2/section2.cpp.i
+
+section2/section2.s: section2/section2.cpp.s
+.PHONY : section2/section2.s
+
+# target to generate assembly for a file
+section2/section2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/operators.dir/build.make CMakeFiles/operators.dir/section2/section2.cpp.s
+.PHONY : section2/section2.cpp.s
 
 # Help Target
 help:
@@ -238,9 +262,12 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... section1/section_one.o"
-	@echo "... section1/section_one.i"
-	@echo "... section1/section_one.s"
+	@echo "... section1/section1.o"
+	@echo "... section1/section1.i"
+	@echo "... section1/section1.s"
+	@echo "... section2/section2.o"
+	@echo "... section2/section2.i"
+	@echo "... section2/section2.s"
 .PHONY : help
 
 
