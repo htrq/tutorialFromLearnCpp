@@ -1,8 +1,6 @@
-CMakeFiles/operators.dir/main.cpp.o: \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/operators/main.cpp \
+CMakeFiles/operators.dir/section4/section4.cpp.o: \
+ /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/operators/section4/section4.cpp \
  /usr/include/stdc-predef.h \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/operators/section1/section1.h \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/operators/section2/section2.h \
  /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/operators/section4/section4.h \
  /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \

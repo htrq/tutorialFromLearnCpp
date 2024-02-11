@@ -10,6 +10,8 @@ file(GLOB SOURCES
     section1/*.cpp
     section2/*.h
     section2/*.cpp
+    section4/*.h
+    section4/*.cpp
 )
 
 add_executable(operators main.cpp ${SOURCES})

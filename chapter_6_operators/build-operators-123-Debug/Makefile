@@ -246,6 +246,30 @@ section2/section2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/operators.dir/build.make CMakeFiles/operators.dir/section2/section2.cpp.s
 .PHONY : section2/section2.cpp.s
 
+section4/section4.o: section4/section4.cpp.o
+.PHONY : section4/section4.o
+
+# target to build an object file
+section4/section4.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/operators.dir/build.make CMakeFiles/operators.dir/section4/section4.cpp.o
+.PHONY : section4/section4.cpp.o
+
+section4/section4.i: section4/section4.cpp.i
+.PHONY : section4/section4.i
+
+# target to preprocess a source file
+section4/section4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/operators.dir/build.make CMakeFiles/operators.dir/section4/section4.cpp.i
+.PHONY : section4/section4.cpp.i
+
+section4/section4.s: section4/section4.cpp.s
+.PHONY : section4/section4.s
+
+# target to generate assembly for a file
+section4/section4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/operators.dir/build.make CMakeFiles/operators.dir/section4/section4.cpp.s
+.PHONY : section4/section4.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -268,6 +292,9 @@ help:
 	@echo "... section2/section2.o"
 	@echo "... section2/section2.i"
 	@echo "... section2/section2.s"
+	@echo "... section4/section4.o"
+	@echo "... section4/section4.i"
+	@echo "... section4/section4.s"
 .PHONY : help
 
 
