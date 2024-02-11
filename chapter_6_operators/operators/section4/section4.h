@@ -5,4 +5,6 @@ void increment_decrement_prefix_exmple();
 
 void section4();
 
+void comaOperator();
+
 #endif // SECTION4_H

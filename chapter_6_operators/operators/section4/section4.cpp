@@ -13,7 +13,16 @@ void increment_decrement_prefix_exmple()
     // better use prefix versions for more performance reasons
 }
 
+void coma_operator()
+{
+    int x{ 1 };
+    int y{ 2 };
+
+    std::cout << (++x, ++y) << '\n'; // increment x and y, evaluates to the right operand
+}
+
 void section4()
 {
     increment_decrement_prefix_exmple();
+    coma_operator();
 }
