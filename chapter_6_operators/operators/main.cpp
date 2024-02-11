@@ -1,6 +1,7 @@
 #include "section1/section1.h"
 #include "section2/section2.h"
 #include "section4/section4.h"
+#include "section6/section6.h"
 #include <iostream>
 
 
@@ -15,6 +16,8 @@ int main()
         section2();
     if (input == 4)
         section4();
+    if (input == 6)
+        section6();
 
     return 0;
 }

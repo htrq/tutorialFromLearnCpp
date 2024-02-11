@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/operators.dir/section2/section2.cpp.o.d"
   "CMakeFiles/operators.dir/section4/section4.cpp.o"
   "CMakeFiles/operators.dir/section4/section4.cpp.o.d"
+  "CMakeFiles/operators.dir/section6/section6.cpp.o"
+  "CMakeFiles/operators.dir/section6/section6.cpp.o.d"
   "operators"
   "operators.pdb"
 )

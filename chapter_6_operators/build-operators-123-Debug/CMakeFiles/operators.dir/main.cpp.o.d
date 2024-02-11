@@ -4,6 +4,7 @@ CMakeFiles/operators.dir/main.cpp.o: \
  /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/operators/section1/section1.h \
  /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/operators/section2/section2.h \
  /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/operators/section4/section4.h \
+ /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_6_operators/operators/section6/section6.h \
  /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
