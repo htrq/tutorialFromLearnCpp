@@ -4,7 +4,7 @@
 
 int main()
 {
-    __attribute_maybe_unused__ double gravity { 9.8 };
+    __attribute_maybe_unused__ double gravity { 9.8 };  // by the way its attribute to avoid warnings about
     std::cout << "Which section to choose: ";
     int choice{};
     std::cin >> choice;
