@@ -1,4 +1,5 @@
 #include "O1/O1.h"
+#include "O2/O2.h"
 #include <iostream>
 
 
@@ -10,5 +11,7 @@ int main()
     std::cin >> choice;
     if ( choice == 1 )
         O1();
+    if ( choice == 2)
+        O2();
     return 0;
 }

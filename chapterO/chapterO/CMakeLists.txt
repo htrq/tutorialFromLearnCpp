@@ -10,6 +10,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 file (GLOB SOURCES
     O1/*.cpp
     O1/*.h
+    O2/*.cpp
+    O2/*.h
 )
 
 add_executable(chapterO main.cpp ${SOURCES})
