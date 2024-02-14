@@ -6,7 +6,7 @@ template<size_t N>
 constexpr std::bitset<N> oneByteShiftBitRight(std::bitset<N> bitset, int n);
 
 template<size_t N>
-std::bitset<N> oneByteShiftBitLeft(std::bitset<N> bitset, int n);
+constexpr std::bitset<N> oneByteShiftBitLeft(std::bitset<N> bitset, int n);
 
 void O2();
 

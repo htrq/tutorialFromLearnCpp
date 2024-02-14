@@ -1,5 +1,6 @@
 #include "O1/O1.h"
 #include "O2/O2.h"
+#include "O3/O3.h"
 #include <iostream>
 
 
@@ -13,5 +14,7 @@ int main()
         O1();
     if ( choice == 2)
         O2();
+    if ( choice == 3)
+        O3();
     return 0;
 }
