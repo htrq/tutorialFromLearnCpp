@@ -14,6 +14,8 @@ file (GLOB SOURCES
     O2/*.h
     O3/*.cpp
     O3/*.h
+    O4/*.h
+    O4/*.cpp
 )
 
 add_executable(chapterO main.cpp ${SOURCES})
