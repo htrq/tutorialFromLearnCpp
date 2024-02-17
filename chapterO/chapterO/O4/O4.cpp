@@ -17,6 +17,8 @@ void O4()
     bitset = user_entered_value;
     std::cout << "Entered value : " << bitset << '\n';
 
-
-
+    std::cout << "In the end you can enter  bits like #### #### with no space: ";
+    bitset = 0;
+    std::cin >> bitset;
+    std::cout << "Entered bitset: " << bitset << '\n';
 }
