@@ -12,6 +12,11 @@ namespace Goo
     {
         return a + b;
     }
+
+    int returnDoSomethingFromGlobalScope()
+    {
+        return ::doSomething(3, 4);
+    }
 }
 
 namespace Foo
