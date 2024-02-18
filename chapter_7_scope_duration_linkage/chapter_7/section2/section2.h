@@ -11,6 +11,10 @@ namespace Goo   // in headers function must be in namespaces too same as in cpp 
 namespace Foo
 {
     int doSomething(int a, int b);
+    namespace FooSecond
+    {
+        int doSomething(int a, int b);
+    }
 }
 
 #endif // SECTION2_H

@@ -25,5 +25,13 @@ namespace Foo
     {
         return a - b;
     }
-
+    namespace FooSecond
+    {
+        int doSomething(int a, int b)
+        {
+            return a / b;
+        }
+    }
 }
+
+
