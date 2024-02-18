@@ -1,7 +1,6 @@
-CMakeFiles/chapter_7.dir/main.cpp.o: \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/main.cpp \
+CMakeFiles/chapter_7.dir/section3/section3.cpp.o: \
+ /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section3/section3.cpp \
  /usr/include/stdc-predef.h \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section2/section2.h \
  /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section3/section3.h \
  /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \

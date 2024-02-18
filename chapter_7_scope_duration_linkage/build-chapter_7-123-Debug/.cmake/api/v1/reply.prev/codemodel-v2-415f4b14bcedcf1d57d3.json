@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-92ad878480f84ca3b8dc.json",
+					"jsonFile" : "directory-.-Debug-caa48b114da33d064f43.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -40,7 +40,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "chapter_7::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-chapter_7-Debug-dea699c9671404c47104.json",
+					"jsonFile" : "target-chapter_7-Debug-140eca06776f30d26ddd.json",
 					"name" : "chapter_7",
 					"projectIndex" : 0
 				}

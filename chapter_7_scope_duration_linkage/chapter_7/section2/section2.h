@@ -17,4 +17,6 @@ namespace Foo
     }
 }
 
+void section2();
+
 #endif // SECTION2_H

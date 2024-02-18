@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/main.cpp" "CMakeFiles/chapter_7.dir/main.cpp.o" "gcc" "CMakeFiles/chapter_7.dir/main.cpp.o.d"
   "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section2/section2.cpp" "CMakeFiles/chapter_7.dir/section2/section2.cpp.o" "gcc" "CMakeFiles/chapter_7.dir/section2/section2.cpp.o.d"
+  "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section3/section3.cpp" "CMakeFiles/chapter_7.dir/section3/section3.cpp.o" "gcc" "CMakeFiles/chapter_7.dir/section3/section3.cpp.o.d"
   )
 
 # Targets to which this target links.

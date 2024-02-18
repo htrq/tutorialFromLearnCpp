@@ -222,6 +222,30 @@ section2/section2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chapter_7.dir/build.make CMakeFiles/chapter_7.dir/section2/section2.cpp.s
 .PHONY : section2/section2.cpp.s
 
+section3/section3.o: section3/section3.cpp.o
+.PHONY : section3/section3.o
+
+# target to build an object file
+section3/section3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chapter_7.dir/build.make CMakeFiles/chapter_7.dir/section3/section3.cpp.o
+.PHONY : section3/section3.cpp.o
+
+section3/section3.i: section3/section3.cpp.i
+.PHONY : section3/section3.i
+
+# target to preprocess a source file
+section3/section3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chapter_7.dir/build.make CMakeFiles/chapter_7.dir/section3/section3.cpp.i
+.PHONY : section3/section3.cpp.i
+
+section3/section3.s: section3/section3.cpp.s
+.PHONY : section3/section3.s
+
+# target to generate assembly for a file
+section3/section3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chapter_7.dir/build.make CMakeFiles/chapter_7.dir/section3/section3.cpp.s
+.PHONY : section3/section3.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -241,6 +265,9 @@ help:
 	@echo "... section2/section2.o"
 	@echo "... section2/section2.i"
 	@echo "... section2/section2.s"
+	@echo "... section3/section3.o"
+	@echo "... section3/section3.i"
+	@echo "... section3/section3.s"
 .PHONY : help
 
 
