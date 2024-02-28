@@ -1,10 +1,7 @@
-CMakeFiles/chapter_7.dir/main.cpp.o: \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/main.cpp \
+CMakeFiles/project_for_learn.dir/conclusion/ask_for_age.cpp.o: \
+ /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_5_constants_and_strings/qtproject/project_for_learn/conclusion/ask_for_age.cpp \
  /usr/include/stdc-predef.h \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section2/section2.h \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section3/section3.h \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section5/section5.h \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section6/section6.h \
+ /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_5_constants_and_strings/qtproject/project_for_learn/conclusion/ask_for_age.h \
  /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \

@@ -246,6 +246,78 @@ section3/section3.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chapter_7.dir/build.make CMakeFiles/chapter_7.dir/section3/section3.cpp.s
 .PHONY : section3/section3.cpp.s
 
+section5/section5.o: section5/section5.cpp.o
+.PHONY : section5/section5.o
+
+# target to build an object file
+section5/section5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chapter_7.dir/build.make CMakeFiles/chapter_7.dir/section5/section5.cpp.o
+.PHONY : section5/section5.cpp.o
+
+section5/section5.i: section5/section5.cpp.i
+.PHONY : section5/section5.i
+
+# target to preprocess a source file
+section5/section5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chapter_7.dir/build.make CMakeFiles/chapter_7.dir/section5/section5.cpp.i
+.PHONY : section5/section5.cpp.i
+
+section5/section5.s: section5/section5.cpp.s
+.PHONY : section5/section5.s
+
+# target to generate assembly for a file
+section5/section5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chapter_7.dir/build.make CMakeFiles/chapter_7.dir/section5/section5.cpp.s
+.PHONY : section5/section5.cpp.s
+
+section6/add.o: section6/add.cpp.o
+.PHONY : section6/add.o
+
+# target to build an object file
+section6/add.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chapter_7.dir/build.make CMakeFiles/chapter_7.dir/section6/add.cpp.o
+.PHONY : section6/add.cpp.o
+
+section6/add.i: section6/add.cpp.i
+.PHONY : section6/add.i
+
+# target to preprocess a source file
+section6/add.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chapter_7.dir/build.make CMakeFiles/chapter_7.dir/section6/add.cpp.i
+.PHONY : section6/add.cpp.i
+
+section6/add.s: section6/add.cpp.s
+.PHONY : section6/add.s
+
+# target to generate assembly for a file
+section6/add.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chapter_7.dir/build.make CMakeFiles/chapter_7.dir/section6/add.cpp.s
+.PHONY : section6/add.cpp.s
+
+section6/section6.o: section6/section6.cpp.o
+.PHONY : section6/section6.o
+
+# target to build an object file
+section6/section6.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chapter_7.dir/build.make CMakeFiles/chapter_7.dir/section6/section6.cpp.o
+.PHONY : section6/section6.cpp.o
+
+section6/section6.i: section6/section6.cpp.i
+.PHONY : section6/section6.i
+
+# target to preprocess a source file
+section6/section6.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chapter_7.dir/build.make CMakeFiles/chapter_7.dir/section6/section6.cpp.i
+.PHONY : section6/section6.cpp.i
+
+section6/section6.s: section6/section6.cpp.s
+.PHONY : section6/section6.s
+
+# target to generate assembly for a file
+section6/section6.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chapter_7.dir/build.make CMakeFiles/chapter_7.dir/section6/section6.cpp.s
+.PHONY : section6/section6.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -268,6 +340,15 @@ help:
 	@echo "... section3/section3.o"
 	@echo "... section3/section3.i"
 	@echo "... section3/section3.s"
+	@echo "... section5/section5.o"
+	@echo "... section5/section5.i"
+	@echo "... section5/section5.s"
+	@echo "... section6/add.o"
+	@echo "... section6/add.i"
+	@echo "... section6/add.s"
+	@echo "... section6/section6.o"
+	@echo "... section6/section6.i"
+	@echo "... section6/section6.s"
 .PHONY : help
 
 

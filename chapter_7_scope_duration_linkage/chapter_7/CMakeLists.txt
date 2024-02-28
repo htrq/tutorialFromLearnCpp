@@ -10,6 +10,11 @@ file (GLOB SOURCES
     section2/section2.cpp
     section3/section3.h
     section3/section3.cpp
+    section5/section5.h
+    section5/section5.cpp
+    section6/section6.h
+    section6/section6.cpp
+    section6/add.cpp
 )
 
 add_executable(chapter_7 main.cpp ${SOURCES})
