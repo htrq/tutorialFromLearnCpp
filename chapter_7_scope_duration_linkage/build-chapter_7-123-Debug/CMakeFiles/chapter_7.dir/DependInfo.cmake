@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section5/section5.cpp" "CMakeFiles/chapter_7.dir/section5/section5.cpp.o" "gcc" "CMakeFiles/chapter_7.dir/section5/section5.cpp.o.d"
   "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section6/add.cpp" "CMakeFiles/chapter_7.dir/section6/add.cpp.o" "gcc" "CMakeFiles/chapter_7.dir/section6/add.cpp.o.d"
   "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section6/section6.cpp" "CMakeFiles/chapter_7.dir/section6/section6.cpp.o" "gcc" "CMakeFiles/chapter_7.dir/section6/section6.cpp.o.d"
+  "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section7/section7.cpp" "CMakeFiles/chapter_7.dir/section7/section7.cpp.o" "gcc" "CMakeFiles/chapter_7.dir/section7/section7.cpp.o.d"
   )
 
 # Targets to which this target links.

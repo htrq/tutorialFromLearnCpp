@@ -967,6 +967,9 @@ CMakeFiles/chapter_7.dir/section6/section6.cpp.o: /home/mikhail/Programming/cpp/
   /usr/include/c++/12/istream \
   /usr/include/c++/12/bits/istream.tcc
 
+CMakeFiles/chapter_7.dir/section7/section7.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section7/section7.cpp \
+  /usr/include/stdc-predef.h
+
 
 /usr/include/c++/12/bits/basic_ios.tcc:
 
@@ -985,6 +988,8 @@ CMakeFiles/chapter_7.dir/section6/section6.cpp.o: /home/mikhail/Programming/cpp/
 /usr/include/c++/12/streambuf:
 
 /usr/include/c++/12/system_error:
+
+/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section7/section7.cpp:
 
 /usr/include/c++/12/bits/basic_string.tcc:
 

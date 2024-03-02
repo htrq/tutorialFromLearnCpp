@@ -318,6 +318,30 @@ section6/section6.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chapter_7.dir/build.make CMakeFiles/chapter_7.dir/section6/section6.cpp.s
 .PHONY : section6/section6.cpp.s
 
+section7/section7.o: section7/section7.cpp.o
+.PHONY : section7/section7.o
+
+# target to build an object file
+section7/section7.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chapter_7.dir/build.make CMakeFiles/chapter_7.dir/section7/section7.cpp.o
+.PHONY : section7/section7.cpp.o
+
+section7/section7.i: section7/section7.cpp.i
+.PHONY : section7/section7.i
+
+# target to preprocess a source file
+section7/section7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chapter_7.dir/build.make CMakeFiles/chapter_7.dir/section7/section7.cpp.i
+.PHONY : section7/section7.cpp.i
+
+section7/section7.s: section7/section7.cpp.s
+.PHONY : section7/section7.s
+
+# target to generate assembly for a file
+section7/section7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chapter_7.dir/build.make CMakeFiles/chapter_7.dir/section7/section7.cpp.s
+.PHONY : section7/section7.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -349,6 +373,9 @@ help:
 	@echo "... section6/section6.o"
 	@echo "... section6/section6.i"
 	@echo "... section6/section6.s"
+	@echo "... section7/section7.o"
+	@echo "... section7/section7.i"
+	@echo "... section7/section7.s"
 .PHONY : help
 
 
