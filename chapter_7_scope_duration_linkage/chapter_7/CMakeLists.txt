@@ -17,6 +17,7 @@ file (GLOB SOURCES
     section6/add.cpp
     section7/section7.h
     section7/section7.cpp
+    section9/constants.h
 )
 
 add_executable(chapter_7 main.cpp ${SOURCES})

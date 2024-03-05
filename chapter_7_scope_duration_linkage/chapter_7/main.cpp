@@ -2,6 +2,7 @@
 #include "section3/section3.h"
 #include "section5/section5.h"
 #include "section6/section6.h"
+#include "section9/constants.h"
 
 #include <iostream>
                         // dont ever use extern when creating non-const variable or compile will think you're making forward declaration
@@ -23,7 +24,9 @@ int main()
         section6();
     if ( input == 7 )
         std::cout << g_xxx << ' ' << g_yyy << '\n';
-
+    if ( input == 9 )
+        std::cout << "Constants: " << constants_for_section::pi << ' ' << constants_for_section::my_gravity << ' '
+                  << constants_for_section::avogadro << '\n';
 
     return 0;
 }
