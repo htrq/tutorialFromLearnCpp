@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-73cd51518a15dd96fae3.json",
+					"jsonFile" : "directory-.-Debug-8a9ce1a1f4b0e860af28.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -28,7 +28,7 @@
 					[
 						0
 					],
-					"name" : "chapter_7",
+					"name" : "main",
 					"targetIndexes" : 
 					[
 						0
@@ -39,9 +39,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "chapter_7::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-chapter_7-Debug-9d1ca19afc5844b07ebd.json",
-					"name" : "chapter_7",
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-5aba4ee65594e5fecfa5.json",
+					"name" : "main",
 					"projectIndex" : 0
 				}
 			]
@@ -50,8 +50,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/build-chapter_7-123-Debug",
-		"source" : "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7"
+		"build" : "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/build-main-123-Debug",
+		"source" : "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/main"
 	},
 	"version" : 
 	{

@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/conclusion/conclusion.cpp" "CMakeFiles/chapter_7.dir/conclusion/conclusion.cpp.o" "gcc" "CMakeFiles/chapter_7.dir/conclusion/conclusion.cpp.o.d"
   "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/main.cpp" "CMakeFiles/chapter_7.dir/main.cpp.o" "gcc" "CMakeFiles/chapter_7.dir/main.cpp.o.d"
   "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section2/section2.cpp" "CMakeFiles/chapter_7.dir/section2/section2.cpp.o" "gcc" "CMakeFiles/chapter_7.dir/section2/section2.cpp.o.d"
   "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section3/section3.cpp" "CMakeFiles/chapter_7.dir/section3/section3.cpp.o" "gcc" "CMakeFiles/chapter_7.dir/section3/section3.cpp.o.d"
@@ -15,6 +16,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section6/add.cpp" "CMakeFiles/chapter_7.dir/section6/add.cpp.o" "gcc" "CMakeFiles/chapter_7.dir/section6/add.cpp.o.d"
   "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section6/section6.cpp" "CMakeFiles/chapter_7.dir/section6/section6.cpp.o" "gcc" "CMakeFiles/chapter_7.dir/section6/section6.cpp.o.d"
   "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section7/section7.cpp" "CMakeFiles/chapter_7.dir/section7/section7.cpp.o" "gcc" "CMakeFiles/chapter_7.dir/section7/section7.cpp.o.d"
+  "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section9/constants_2.cpp" "CMakeFiles/chapter_7.dir/section9/constants_2.cpp.o" "gcc" "CMakeFiles/chapter_7.dir/section9/constants_2.cpp.o.d"
   )
 
 # Targets to which this target links.

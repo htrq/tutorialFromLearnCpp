@@ -83,10 +83,24 @@ CMakeFiles/chapter_7.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chapter_7.dir/main.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/main.cpp -o CMakeFiles/chapter_7.dir/main.cpp.s
 
+CMakeFiles/chapter_7.dir/conclusion/conclusion.cpp.o: CMakeFiles/chapter_7.dir/flags.make
+CMakeFiles/chapter_7.dir/conclusion/conclusion.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/conclusion/conclusion.cpp
+CMakeFiles/chapter_7.dir/conclusion/conclusion.cpp.o: CMakeFiles/chapter_7.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/build-chapter_7-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/chapter_7.dir/conclusion/conclusion.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chapter_7.dir/conclusion/conclusion.cpp.o -MF CMakeFiles/chapter_7.dir/conclusion/conclusion.cpp.o.d -o CMakeFiles/chapter_7.dir/conclusion/conclusion.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/conclusion/conclusion.cpp
+
+CMakeFiles/chapter_7.dir/conclusion/conclusion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chapter_7.dir/conclusion/conclusion.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/conclusion/conclusion.cpp > CMakeFiles/chapter_7.dir/conclusion/conclusion.cpp.i
+
+CMakeFiles/chapter_7.dir/conclusion/conclusion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chapter_7.dir/conclusion/conclusion.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/conclusion/conclusion.cpp -o CMakeFiles/chapter_7.dir/conclusion/conclusion.cpp.s
+
 CMakeFiles/chapter_7.dir/section2/section2.cpp.o: CMakeFiles/chapter_7.dir/flags.make
 CMakeFiles/chapter_7.dir/section2/section2.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section2/section2.cpp
 CMakeFiles/chapter_7.dir/section2/section2.cpp.o: CMakeFiles/chapter_7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/build-chapter_7-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/chapter_7.dir/section2/section2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/build-chapter_7-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/chapter_7.dir/section2/section2.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chapter_7.dir/section2/section2.cpp.o -MF CMakeFiles/chapter_7.dir/section2/section2.cpp.o.d -o CMakeFiles/chapter_7.dir/section2/section2.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section2/section2.cpp
 
 CMakeFiles/chapter_7.dir/section2/section2.cpp.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/chapter_7.dir/section2/section2.cpp.s: cmake_force
 CMakeFiles/chapter_7.dir/section3/section3.cpp.o: CMakeFiles/chapter_7.dir/flags.make
 CMakeFiles/chapter_7.dir/section3/section3.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section3/section3.cpp
 CMakeFiles/chapter_7.dir/section3/section3.cpp.o: CMakeFiles/chapter_7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/build-chapter_7-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/chapter_7.dir/section3/section3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/build-chapter_7-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/chapter_7.dir/section3/section3.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chapter_7.dir/section3/section3.cpp.o -MF CMakeFiles/chapter_7.dir/section3/section3.cpp.o.d -o CMakeFiles/chapter_7.dir/section3/section3.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section3/section3.cpp
 
 CMakeFiles/chapter_7.dir/section3/section3.cpp.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/chapter_7.dir/section3/section3.cpp.s: cmake_force
 CMakeFiles/chapter_7.dir/section5/section5.cpp.o: CMakeFiles/chapter_7.dir/flags.make
 CMakeFiles/chapter_7.dir/section5/section5.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section5/section5.cpp
 CMakeFiles/chapter_7.dir/section5/section5.cpp.o: CMakeFiles/chapter_7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/build-chapter_7-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/chapter_7.dir/section5/section5.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/build-chapter_7-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/chapter_7.dir/section5/section5.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chapter_7.dir/section5/section5.cpp.o -MF CMakeFiles/chapter_7.dir/section5/section5.cpp.o.d -o CMakeFiles/chapter_7.dir/section5/section5.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section5/section5.cpp
 
 CMakeFiles/chapter_7.dir/section5/section5.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/chapter_7.dir/section5/section5.cpp.s: cmake_force
 CMakeFiles/chapter_7.dir/section6/add.cpp.o: CMakeFiles/chapter_7.dir/flags.make
 CMakeFiles/chapter_7.dir/section6/add.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section6/add.cpp
 CMakeFiles/chapter_7.dir/section6/add.cpp.o: CMakeFiles/chapter_7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/build-chapter_7-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/chapter_7.dir/section6/add.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/build-chapter_7-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/chapter_7.dir/section6/add.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chapter_7.dir/section6/add.cpp.o -MF CMakeFiles/chapter_7.dir/section6/add.cpp.o.d -o CMakeFiles/chapter_7.dir/section6/add.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section6/add.cpp
 
 CMakeFiles/chapter_7.dir/section6/add.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/chapter_7.dir/section6/add.cpp.s: cmake_force
 CMakeFiles/chapter_7.dir/section6/section6.cpp.o: CMakeFiles/chapter_7.dir/flags.make
 CMakeFiles/chapter_7.dir/section6/section6.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section6/section6.cpp
 CMakeFiles/chapter_7.dir/section6/section6.cpp.o: CMakeFiles/chapter_7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/build-chapter_7-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/chapter_7.dir/section6/section6.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/build-chapter_7-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/chapter_7.dir/section6/section6.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chapter_7.dir/section6/section6.cpp.o -MF CMakeFiles/chapter_7.dir/section6/section6.cpp.o.d -o CMakeFiles/chapter_7.dir/section6/section6.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section6/section6.cpp
 
 CMakeFiles/chapter_7.dir/section6/section6.cpp.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/chapter_7.dir/section6/section6.cpp.s: cmake_force
 CMakeFiles/chapter_7.dir/section7/section7.cpp.o: CMakeFiles/chapter_7.dir/flags.make
 CMakeFiles/chapter_7.dir/section7/section7.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section7/section7.cpp
 CMakeFiles/chapter_7.dir/section7/section7.cpp.o: CMakeFiles/chapter_7.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/build-chapter_7-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/chapter_7.dir/section7/section7.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/build-chapter_7-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/chapter_7.dir/section7/section7.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chapter_7.dir/section7/section7.cpp.o -MF CMakeFiles/chapter_7.dir/section7/section7.cpp.o.d -o CMakeFiles/chapter_7.dir/section7/section7.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section7/section7.cpp
 
 CMakeFiles/chapter_7.dir/section7/section7.cpp.i: cmake_force
@@ -167,29 +181,47 @@ CMakeFiles/chapter_7.dir/section7/section7.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chapter_7.dir/section7/section7.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section7/section7.cpp -o CMakeFiles/chapter_7.dir/section7/section7.cpp.s
 
+CMakeFiles/chapter_7.dir/section9/constants_2.cpp.o: CMakeFiles/chapter_7.dir/flags.make
+CMakeFiles/chapter_7.dir/section9/constants_2.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section9/constants_2.cpp
+CMakeFiles/chapter_7.dir/section9/constants_2.cpp.o: CMakeFiles/chapter_7.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/build-chapter_7-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/chapter_7.dir/section9/constants_2.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/chapter_7.dir/section9/constants_2.cpp.o -MF CMakeFiles/chapter_7.dir/section9/constants_2.cpp.o.d -o CMakeFiles/chapter_7.dir/section9/constants_2.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section9/constants_2.cpp
+
+CMakeFiles/chapter_7.dir/section9/constants_2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/chapter_7.dir/section9/constants_2.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section9/constants_2.cpp > CMakeFiles/chapter_7.dir/section9/constants_2.cpp.i
+
+CMakeFiles/chapter_7.dir/section9/constants_2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/chapter_7.dir/section9/constants_2.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/chapter_7/section9/constants_2.cpp -o CMakeFiles/chapter_7.dir/section9/constants_2.cpp.s
+
 # Object files for target chapter_7
 chapter_7_OBJECTS = \
 "CMakeFiles/chapter_7.dir/main.cpp.o" \
+"CMakeFiles/chapter_7.dir/conclusion/conclusion.cpp.o" \
 "CMakeFiles/chapter_7.dir/section2/section2.cpp.o" \
 "CMakeFiles/chapter_7.dir/section3/section3.cpp.o" \
 "CMakeFiles/chapter_7.dir/section5/section5.cpp.o" \
 "CMakeFiles/chapter_7.dir/section6/add.cpp.o" \
 "CMakeFiles/chapter_7.dir/section6/section6.cpp.o" \
-"CMakeFiles/chapter_7.dir/section7/section7.cpp.o"
+"CMakeFiles/chapter_7.dir/section7/section7.cpp.o" \
+"CMakeFiles/chapter_7.dir/section9/constants_2.cpp.o"
 
 # External object files for target chapter_7
 chapter_7_EXTERNAL_OBJECTS =
 
 chapter_7: CMakeFiles/chapter_7.dir/main.cpp.o
+chapter_7: CMakeFiles/chapter_7.dir/conclusion/conclusion.cpp.o
 chapter_7: CMakeFiles/chapter_7.dir/section2/section2.cpp.o
 chapter_7: CMakeFiles/chapter_7.dir/section3/section3.cpp.o
 chapter_7: CMakeFiles/chapter_7.dir/section5/section5.cpp.o
 chapter_7: CMakeFiles/chapter_7.dir/section6/add.cpp.o
 chapter_7: CMakeFiles/chapter_7.dir/section6/section6.cpp.o
 chapter_7: CMakeFiles/chapter_7.dir/section7/section7.cpp.o
+chapter_7: CMakeFiles/chapter_7.dir/section9/constants_2.cpp.o
 chapter_7: CMakeFiles/chapter_7.dir/build.make
 chapter_7: CMakeFiles/chapter_7.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/build-chapter_7-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable chapter_7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/build-chapter_7-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable chapter_7"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/chapter_7.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

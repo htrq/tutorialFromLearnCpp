@@ -174,6 +174,30 @@ chapter_7/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chapter_7.dir/build.make CMakeFiles/chapter_7.dir/build
 .PHONY : chapter_7/fast
 
+conclusion/conclusion.o: conclusion/conclusion.cpp.o
+.PHONY : conclusion/conclusion.o
+
+# target to build an object file
+conclusion/conclusion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chapter_7.dir/build.make CMakeFiles/chapter_7.dir/conclusion/conclusion.cpp.o
+.PHONY : conclusion/conclusion.cpp.o
+
+conclusion/conclusion.i: conclusion/conclusion.cpp.i
+.PHONY : conclusion/conclusion.i
+
+# target to preprocess a source file
+conclusion/conclusion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chapter_7.dir/build.make CMakeFiles/chapter_7.dir/conclusion/conclusion.cpp.i
+.PHONY : conclusion/conclusion.cpp.i
+
+conclusion/conclusion.s: conclusion/conclusion.cpp.s
+.PHONY : conclusion/conclusion.s
+
+# target to generate assembly for a file
+conclusion/conclusion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chapter_7.dir/build.make CMakeFiles/chapter_7.dir/conclusion/conclusion.cpp.s
+.PHONY : conclusion/conclusion.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -342,6 +366,30 @@ section7/section7.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chapter_7.dir/build.make CMakeFiles/chapter_7.dir/section7/section7.cpp.s
 .PHONY : section7/section7.cpp.s
 
+section9/constants_2.o: section9/constants_2.cpp.o
+.PHONY : section9/constants_2.o
+
+# target to build an object file
+section9/constants_2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chapter_7.dir/build.make CMakeFiles/chapter_7.dir/section9/constants_2.cpp.o
+.PHONY : section9/constants_2.cpp.o
+
+section9/constants_2.i: section9/constants_2.cpp.i
+.PHONY : section9/constants_2.i
+
+# target to preprocess a source file
+section9/constants_2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chapter_7.dir/build.make CMakeFiles/chapter_7.dir/section9/constants_2.cpp.i
+.PHONY : section9/constants_2.cpp.i
+
+section9/constants_2.s: section9/constants_2.cpp.s
+.PHONY : section9/constants_2.s
+
+# target to generate assembly for a file
+section9/constants_2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/chapter_7.dir/build.make CMakeFiles/chapter_7.dir/section9/constants_2.cpp.s
+.PHONY : section9/constants_2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -355,6 +403,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... chapter_7"
+	@echo "... conclusion/conclusion.o"
+	@echo "... conclusion/conclusion.i"
+	@echo "... conclusion/conclusion.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -376,6 +427,9 @@ help:
 	@echo "... section7/section7.o"
 	@echo "... section7/section7.i"
 	@echo "... section7/section7.s"
+	@echo "... section9/constants_2.o"
+	@echo "... section9/constants_2.i"
+	@echo "... section9/constants_2.s"
 .PHONY : help
 
 
