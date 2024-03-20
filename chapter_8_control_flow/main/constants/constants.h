@@ -3,7 +3,7 @@
 
 namespace constants_for_chapter
 {
-    inline const double gravity{ 9.8 };
+    inline constexpr double gravity{ 9.8 };
 }
 
 #endif // CONSTANTS_H
