@@ -9,6 +9,8 @@ file(GLOB SOURCES
     section_4/section_4.h
     section_4/section_4.cpp
     constants/constants.h
+    section_6/section_6.h
+    section_6/section_6.cpp
 )
 
 add_executable(main main.cpp ${SOURCES})
