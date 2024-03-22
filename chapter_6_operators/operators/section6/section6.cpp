@@ -15,5 +15,5 @@ void section6()
                          0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 + 0.1 +
                          0.1 + 0.1 };    // approximately 3.6
     constexpr double relEpsilon {1e-8};                                             // for floating numbers needs to use Knut's comparison method
-    std::cout << std::boolalpha << approximatelyEqualRel(a - 1.0, 2.6, relEpsilon) << '\n'; // false because value varies too much for altitude (1e-16)
+    std::cout << std::boolalpha << approximatelyEqualRel(a - 1.0, 2.6, relEpsilon) << '\n'; // false because value varies too much for altitude (1e-8)
 }
