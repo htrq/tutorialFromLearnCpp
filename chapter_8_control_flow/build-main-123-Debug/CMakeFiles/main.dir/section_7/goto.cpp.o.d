@@ -1,6 +1,8 @@
-CMakeFiles/main.dir/main.cpp.o: \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/main/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/12/iostream \
+CMakeFiles/main.dir/section_7/goto.cpp.o: \
+ /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/main/section_7/goto.cpp \
+ /usr/include/stdc-predef.h \
+ /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/main/section_7/goto.h \
+ /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -151,8 +153,4 @@ CMakeFiles/main.dir/main.cpp.o: \
  /usr/include/c++/12/bits/locale_facets.tcc \
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
- /usr/include/c++/12/bits/istream.tcc \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/main/section_4/section_4.h \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/main/section_6/section_6.h \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/main/section_7/goto.h \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/main/section_8/while_problem.h
+ /usr/include/c++/12/bits/istream.tcc

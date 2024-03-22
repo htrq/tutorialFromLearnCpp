@@ -1,5 +1,6 @@
 #include <iostream>
 
+
 void switch_with_fallthrough(int value)
 {
     switch (value)
@@ -19,7 +20,7 @@ void switch_with_fallthrough(int value)
     }
 }
 
-void switch_with_initialized_variable(int_fast16_t input)
+void switch_with_initialized_variable(int16_t input)
 {
     switch (input)
     {

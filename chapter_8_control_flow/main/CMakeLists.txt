@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.5)
 
 project(main LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 file(GLOB SOURCES
@@ -11,6 +11,10 @@ file(GLOB SOURCES
     constants/constants.h
     section_6/section_6.h
     section_6/section_6.cpp
+    section_7/goto.h
+    section_7/goto.cpp
+    section_8/while_problem.h
+    section_8/while_problem.cpp
 )
 
 add_executable(main main.cpp ${SOURCES})

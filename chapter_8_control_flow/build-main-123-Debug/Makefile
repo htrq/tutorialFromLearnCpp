@@ -246,6 +246,54 @@ section_6/section_6.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/section_6/section_6.cpp.s
 .PHONY : section_6/section_6.cpp.s
 
+section_7/goto.o: section_7/goto.cpp.o
+.PHONY : section_7/goto.o
+
+# target to build an object file
+section_7/goto.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/section_7/goto.cpp.o
+.PHONY : section_7/goto.cpp.o
+
+section_7/goto.i: section_7/goto.cpp.i
+.PHONY : section_7/goto.i
+
+# target to preprocess a source file
+section_7/goto.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/section_7/goto.cpp.i
+.PHONY : section_7/goto.cpp.i
+
+section_7/goto.s: section_7/goto.cpp.s
+.PHONY : section_7/goto.s
+
+# target to generate assembly for a file
+section_7/goto.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/section_7/goto.cpp.s
+.PHONY : section_7/goto.cpp.s
+
+section_8/while_problem.o: section_8/while_problem.cpp.o
+.PHONY : section_8/while_problem.o
+
+# target to build an object file
+section_8/while_problem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/section_8/while_problem.cpp.o
+.PHONY : section_8/while_problem.cpp.o
+
+section_8/while_problem.i: section_8/while_problem.cpp.i
+.PHONY : section_8/while_problem.i
+
+# target to preprocess a source file
+section_8/while_problem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/section_8/while_problem.cpp.i
+.PHONY : section_8/while_problem.cpp.i
+
+section_8/while_problem.s: section_8/while_problem.cpp.s
+.PHONY : section_8/while_problem.s
+
+# target to generate assembly for a file
+section_8/while_problem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/section_8/while_problem.cpp.s
+.PHONY : section_8/while_problem.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -268,6 +316,12 @@ help:
 	@echo "... section_6/section_6.o"
 	@echo "... section_6/section_6.i"
 	@echo "... section_6/section_6.s"
+	@echo "... section_7/goto.o"
+	@echo "... section_7/goto.i"
+	@echo "... section_7/goto.s"
+	@echo "... section_8/while_problem.o"
+	@echo "... section_8/while_problem.i"
+	@echo "... section_8/while_problem.s"
 .PHONY : help
 
 
