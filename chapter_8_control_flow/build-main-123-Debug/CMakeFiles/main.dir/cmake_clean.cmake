@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/main.dir/main.cpp.o"
   "CMakeFiles/main.dir/main.cpp.o.d"
+  "CMakeFiles/main.dir/section_14/merssene_twister_example.cpp.o"
+  "CMakeFiles/main.dir/section_14/merssene_twister_example.cpp.o.d"
   "CMakeFiles/main.dir/section_4/section_4.cpp.o"
   "CMakeFiles/main.dir/section_4/section_4.cpp.o.d"
   "CMakeFiles/main.dir/section_6/section_6.cpp.o"

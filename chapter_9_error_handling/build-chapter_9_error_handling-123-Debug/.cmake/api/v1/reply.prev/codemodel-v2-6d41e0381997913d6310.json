@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-db08dd53ef7dff36b07c.json",
+					"jsonFile" : "directory-.-Debug-d2777b7f885844ec93eb.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -28,7 +28,7 @@
 					[
 						0
 					],
-					"name" : "main",
+					"name" : "chapter_9_error_handling",
 					"targetIndexes" : 
 					[
 						0
@@ -40,7 +40,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-Debug-ea9e399bdc2d73cab748.json",
+					"jsonFile" : "target-main-Debug-ea02a31092ca5eda3ff3.json",
 					"name" : "main",
 					"projectIndex" : 0
 				}
@@ -50,8 +50,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/build-main-123-Debug",
-		"source" : "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/main"
+		"build" : "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_9_error_handling/build-chapter_9_error_handling-123-Debug",
+		"source" : "/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_9_error_handling/chapter_9_error_handling"
 	},
 	"version" : 
 	{

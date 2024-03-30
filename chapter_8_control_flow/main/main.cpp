@@ -3,11 +3,12 @@
 #include "section_6/section_6.h"
 #include "section_7/goto.h"
 #include "section_8/while_problem.h"
+#include "section_14/merssene_twister_example.h"
 
 int main()
 {
     int input{};
-    std::cout << "Choose chapter: ";
+    std::cout << "Choose chapter (4, 6, 7, 8, 14): ";
     std::cin >> input;
 
     switch (input) // finally came up with switch!
@@ -23,6 +24,9 @@ int main()
         return 0;
     case 8:
         while_problem();
+        return 0;
+    case 14:
+        merssene_twister_example();
         return 0;
     default:
         std::cout << "Unknown\n";

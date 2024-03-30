@@ -4,10 +4,9 @@
 void while_problem()
 {
     int outer{ 1 };
-    int inner{ 1 }; // declared once
-    while (outer <= 5)
+    while (outer <= 10)
     {
-        inner = 1;
+        int inner{ 1 };
         while (inner <= outer)
         {
             std::cout << inner << ' ';

@@ -155,4 +155,5 @@ CMakeFiles/main.dir/main.cpp.o: \
  /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/main/section_4/section_4.h \
  /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/main/section_6/section_6.h \
  /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/main/section_7/goto.h \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/main/section_8/while_problem.h
+ /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/main/section_8/while_problem.h \
+ /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/main/section_14/merssene_twister_example.h

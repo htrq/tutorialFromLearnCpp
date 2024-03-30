@@ -83,10 +83,24 @@ CMakeFiles/main.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/main.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/main/main.cpp -o CMakeFiles/main.dir/main.cpp.s
 
+CMakeFiles/main.dir/section_14/merssene_twister_example.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/section_14/merssene_twister_example.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/main/section_14/merssene_twister_example.cpp
+CMakeFiles/main.dir/section_14/merssene_twister_example.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/build-main-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/section_14/merssene_twister_example.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/section_14/merssene_twister_example.cpp.o -MF CMakeFiles/main.dir/section_14/merssene_twister_example.cpp.o.d -o CMakeFiles/main.dir/section_14/merssene_twister_example.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/main/section_14/merssene_twister_example.cpp
+
+CMakeFiles/main.dir/section_14/merssene_twister_example.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/section_14/merssene_twister_example.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/main/section_14/merssene_twister_example.cpp > CMakeFiles/main.dir/section_14/merssene_twister_example.cpp.i
+
+CMakeFiles/main.dir/section_14/merssene_twister_example.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/section_14/merssene_twister_example.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/main/section_14/merssene_twister_example.cpp -o CMakeFiles/main.dir/section_14/merssene_twister_example.cpp.s
+
 CMakeFiles/main.dir/section_4/section_4.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/section_4/section_4.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/main/section_4/section_4.cpp
 CMakeFiles/main.dir/section_4/section_4.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/build-main-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/section_4/section_4.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/build-main-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/section_4/section_4.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/section_4/section_4.cpp.o -MF CMakeFiles/main.dir/section_4/section_4.cpp.o.d -o CMakeFiles/main.dir/section_4/section_4.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/main/section_4/section_4.cpp
 
 CMakeFiles/main.dir/section_4/section_4.cpp.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/main.dir/section_4/section_4.cpp.s: cmake_force
 CMakeFiles/main.dir/section_6/section_6.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/section_6/section_6.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/main/section_6/section_6.cpp
 CMakeFiles/main.dir/section_6/section_6.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/build-main-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/section_6/section_6.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/build-main-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/section_6/section_6.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/section_6/section_6.cpp.o -MF CMakeFiles/main.dir/section_6/section_6.cpp.o.d -o CMakeFiles/main.dir/section_6/section_6.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/main/section_6/section_6.cpp
 
 CMakeFiles/main.dir/section_6/section_6.cpp.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/main.dir/section_6/section_6.cpp.s: cmake_force
 CMakeFiles/main.dir/section_7/goto.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/section_7/goto.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/main/section_7/goto.cpp
 CMakeFiles/main.dir/section_7/goto.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/build-main-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/section_7/goto.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/build-main-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/section_7/goto.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/section_7/goto.cpp.o -MF CMakeFiles/main.dir/section_7/goto.cpp.o.d -o CMakeFiles/main.dir/section_7/goto.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/main/section_7/goto.cpp
 
 CMakeFiles/main.dir/section_7/goto.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/main.dir/section_7/goto.cpp.s: cmake_force
 CMakeFiles/main.dir/section_8/while_problem.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/section_8/while_problem.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/main/section_8/while_problem.cpp
 CMakeFiles/main.dir/section_8/while_problem.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/build-main-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/section_8/while_problem.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/build-main-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/section_8/while_problem.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/section_8/while_problem.cpp.o -MF CMakeFiles/main.dir/section_8/while_problem.cpp.o.d -o CMakeFiles/main.dir/section_8/while_problem.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/main/section_8/while_problem.cpp
 
 CMakeFiles/main.dir/section_8/while_problem.cpp.i: cmake_force
@@ -142,6 +156,7 @@ CMakeFiles/main.dir/section_8/while_problem.cpp.s: cmake_force
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/main.cpp.o" \
+"CMakeFiles/main.dir/section_14/merssene_twister_example.cpp.o" \
 "CMakeFiles/main.dir/section_4/section_4.cpp.o" \
 "CMakeFiles/main.dir/section_6/section_6.cpp.o" \
 "CMakeFiles/main.dir/section_7/goto.cpp.o" \
@@ -151,13 +166,14 @@ main_OBJECTS = \
 main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/main.cpp.o
+main: CMakeFiles/main.dir/section_14/merssene_twister_example.cpp.o
 main: CMakeFiles/main.dir/section_4/section_4.cpp.o
 main: CMakeFiles/main.dir/section_6/section_6.cpp.o
 main: CMakeFiles/main.dir/section_7/goto.cpp.o
 main: CMakeFiles/main.dir/section_8/while_problem.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/build-main-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_8_control_flow/build-main-123-Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

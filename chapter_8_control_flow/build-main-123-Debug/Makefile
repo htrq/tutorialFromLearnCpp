@@ -198,6 +198,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+section_14/merssene_twister_example.o: section_14/merssene_twister_example.cpp.o
+.PHONY : section_14/merssene_twister_example.o
+
+# target to build an object file
+section_14/merssene_twister_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/section_14/merssene_twister_example.cpp.o
+.PHONY : section_14/merssene_twister_example.cpp.o
+
+section_14/merssene_twister_example.i: section_14/merssene_twister_example.cpp.i
+.PHONY : section_14/merssene_twister_example.i
+
+# target to preprocess a source file
+section_14/merssene_twister_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/section_14/merssene_twister_example.cpp.i
+.PHONY : section_14/merssene_twister_example.cpp.i
+
+section_14/merssene_twister_example.s: section_14/merssene_twister_example.cpp.s
+.PHONY : section_14/merssene_twister_example.s
+
+# target to generate assembly for a file
+section_14/merssene_twister_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/section_14/merssene_twister_example.cpp.s
+.PHONY : section_14/merssene_twister_example.cpp.s
+
 section_4/section_4.o: section_4/section_4.cpp.o
 .PHONY : section_4/section_4.o
 
@@ -310,6 +334,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... section_14/merssene_twister_example.o"
+	@echo "... section_14/merssene_twister_example.i"
+	@echo "... section_14/merssene_twister_example.s"
 	@echo "... section_4/section_4.o"
 	@echo "... section_4/section_4.i"
 	@echo "... section_4/section_4.s"
