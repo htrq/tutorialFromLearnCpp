@@ -10,6 +10,9 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 file(GLOB SOURCES
     section_5/cin_handling.h
     section_5/cin_handling.cpp
+    assert/assert_example.cpp
+    constants/constants.h
+    assert/assert_example.h
 
 )
 

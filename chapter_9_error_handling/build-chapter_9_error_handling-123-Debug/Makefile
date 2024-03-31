@@ -174,6 +174,30 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+assert/assert_example.o: assert/assert_example.cpp.o
+.PHONY : assert/assert_example.o
+
+# target to build an object file
+assert/assert_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/assert/assert_example.cpp.o
+.PHONY : assert/assert_example.cpp.o
+
+assert/assert_example.i: assert/assert_example.cpp.i
+.PHONY : assert/assert_example.i
+
+# target to preprocess a source file
+assert/assert_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/assert/assert_example.cpp.i
+.PHONY : assert/assert_example.cpp.i
+
+assert/assert_example.s: assert/assert_example.cpp.s
+.PHONY : assert/assert_example.s
+
+# target to generate assembly for a file
+assert/assert_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/assert/assert_example.cpp.s
+.PHONY : assert/assert_example.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -235,6 +259,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... main"
+	@echo "... assert/assert_example.o"
+	@echo "... assert/assert_example.i"
+	@echo "... assert/assert_example.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

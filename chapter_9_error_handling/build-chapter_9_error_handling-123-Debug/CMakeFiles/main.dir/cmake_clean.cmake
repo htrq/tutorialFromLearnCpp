@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/main.dir/assert/assert_example.cpp.o"
+  "CMakeFiles/main.dir/assert/assert_example.cpp.o.d"
   "CMakeFiles/main.dir/main.cpp.o"
   "CMakeFiles/main.dir/main.cpp.o.d"
   "CMakeFiles/main.dir/section_5/cin_handling.cpp.o"

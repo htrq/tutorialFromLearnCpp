@@ -19,9 +19,11 @@ char get_operator()
         case '-':
         case '*':
         case '/':
-            if (!std::cin.eof() && !std::cin.peek() != '\n')    //peek to check next value without extraction; eof 'end of line' end of buffer
+            if (!std::cin.eof() && !std::cin.peek() != '\n')    //peek to check next value without extraction; eof 'end of file' end of buffer
                 ignoreLine();
                 return operation;
+
+
         default:
             std::cout << "OOps something went wrong.. wrong input..\nTry again: ";
         }
@@ -43,6 +45,10 @@ double getDouble()
     */
     if (!std::cin)
     {
+        // in unix systems when enter eof command (ctrl-d) cin fails
+        if (std::cin.eof())     // so this handles this
+            std::exit(0);
+
         std::cin.clear();
         ignoreLine();
     }
