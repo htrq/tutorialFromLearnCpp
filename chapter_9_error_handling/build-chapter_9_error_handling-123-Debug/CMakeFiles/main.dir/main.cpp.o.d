@@ -152,5 +152,6 @@ CMakeFiles/main.dir/main.cpp.o: \
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
  /usr/include/c++/12/bits/istream.tcc /usr/include/c++/12/limits \
+ /usr/include/c++/12/cassert /usr/include/assert.h \
  /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_9_error_handling/chapter_9_error_handling/section_5/cin_handling.h \
  /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_9_error_handling/chapter_9_error_handling/assert/assert_example.h
