@@ -222,6 +222,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+pointer_example/pointer_example.o: pointer_example/pointer_example.cpp.o
+.PHONY : pointer_example/pointer_example.o
+
+# target to build an object file
+pointer_example/pointer_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/pointer_example/pointer_example.cpp.o
+.PHONY : pointer_example/pointer_example.cpp.o
+
+pointer_example/pointer_example.i: pointer_example/pointer_example.cpp.i
+.PHONY : pointer_example/pointer_example.i
+
+# target to preprocess a source file
+pointer_example/pointer_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/pointer_example/pointer_example.cpp.i
+.PHONY : pointer_example/pointer_example.cpp.i
+
+pointer_example/pointer_example.s: pointer_example/pointer_example.cpp.s
+.PHONY : pointer_example/pointer_example.s
+
+# target to generate assembly for a file
+pointer_example/pointer_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/pointer_example/pointer_example.cpp.s
+.PHONY : pointer_example/pointer_example.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -241,6 +265,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... pointer_example/pointer_example.o"
+	@echo "... pointer_example/pointer_example.i"
+	@echo "... pointer_example/pointer_example.s"
 .PHONY : help
 
 

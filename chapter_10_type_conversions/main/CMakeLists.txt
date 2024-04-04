@@ -8,6 +8,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 file (GLOB SOURCES
     arithmetic_conversions/arithmetic_conversions.cpp
     arithmetic_conversions/arithmetic_conversions.h
+    pointer_example/pointer_example.cpp
+    pointer_example/pointer_example.h
 )
 
 add_executable(main main.cpp ${SOURCES})

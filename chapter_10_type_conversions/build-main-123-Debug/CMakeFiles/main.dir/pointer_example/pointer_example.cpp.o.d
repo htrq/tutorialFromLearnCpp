@@ -1,5 +1,5 @@
-CMakeFiles/main.dir/main.cpp.o: \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_10_type_conversions/main/main.cpp \
+CMakeFiles/main.dir/pointer_example/pointer_example.cpp.o: \
+ /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_10_type_conversions/main/pointer_example/pointer_example.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -152,5 +152,4 @@ CMakeFiles/main.dir/main.cpp.o: \
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
  /usr/include/c++/12/bits/istream.tcc \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_10_type_conversions/main/arithmetic_conversions/arithmetic_conversions.h \
  /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_10_type_conversions/main/pointer_example/pointer_example.h
