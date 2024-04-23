@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1706116590 source:/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_4_data_types/conclusion/conclusion/main.cpp
+	<iostream>
+	<math.h>
+

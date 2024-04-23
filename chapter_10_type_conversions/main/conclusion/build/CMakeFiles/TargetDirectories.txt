@@ -1,0 +1,3 @@
+/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_10_type_conversions/main/conclusion/build/CMakeFiles/conclusion.dir
+/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_10_type_conversions/main/conclusion/build/CMakeFiles/edit_cache.dir
+/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_10_type_conversions/main/conclusion/build/CMakeFiles/rebuild_cache.dir

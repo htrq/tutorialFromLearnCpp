@@ -1,0 +1,7 @@
+/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/build-chapter_7-123-Debug/CMakeFiles/chapter_7.dir
+/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/build-chapter_7-123-Debug/CMakeFiles/edit_cache.dir
+/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/build-chapter_7-123-Debug/CMakeFiles/rebuild_cache.dir
+/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/build-chapter_7-123-Debug/CMakeFiles/list_install_components.dir
+/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/build-chapter_7-123-Debug/CMakeFiles/install.dir
+/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/build-chapter_7-123-Debug/CMakeFiles/install/local.dir
+/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_7_scope_duration_linkage/build-chapter_7-123-Debug/CMakeFiles/install/strip.dir
