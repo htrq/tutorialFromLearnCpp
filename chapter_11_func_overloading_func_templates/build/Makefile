@@ -177,6 +177,30 @@ src/function_overload_differentiation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/function_overload_differentiation.cpp.s
 .PHONY : src/function_overload_differentiation.cpp.s
 
+src/function_overload_resolution.o: src/function_overload_resolution.cpp.o
+.PHONY : src/function_overload_resolution.o
+
+# target to build an object file
+src/function_overload_resolution.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/function_overload_resolution.cpp.o
+.PHONY : src/function_overload_resolution.cpp.o
+
+src/function_overload_resolution.i: src/function_overload_resolution.cpp.i
+.PHONY : src/function_overload_resolution.i
+
+# target to preprocess a source file
+src/function_overload_resolution.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/function_overload_resolution.cpp.i
+.PHONY : src/function_overload_resolution.cpp.i
+
+src/function_overload_resolution.s: src/function_overload_resolution.cpp.s
+.PHONY : src/function_overload_resolution.s
+
+# target to generate assembly for a file
+src/function_overload_resolution.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/function_overload_resolution.cpp.s
+.PHONY : src/function_overload_resolution.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -216,6 +240,9 @@ help:
 	@echo "... src/function_overload_differentiation.o"
 	@echo "... src/function_overload_differentiation.i"
 	@echo "... src/function_overload_differentiation.s"
+	@echo "... src/function_overload_resolution.o"
+	@echo "... src/function_overload_resolution.i"
+	@echo "... src/function_overload_resolution.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
