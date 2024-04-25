@@ -148,7 +148,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=func_overload_func_templates
+CMAKE_PROJECT_NAME:STATIC=intro_to_function_overload
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=1.0
@@ -235,6 +235,15 @@ func_overload_func_templates_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 func_overload_func_templates_SOURCE_DIR:STATIC=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates
+
+//Value Computed by CMake
+intro_to_function_overload_BINARY_DIR:STATIC=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/build
+
+//Value Computed by CMake
+intro_to_function_overload_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+intro_to_function_overload_SOURCE_DIR:STATIC=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates
 
 
 ########################
