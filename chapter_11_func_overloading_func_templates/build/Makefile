@@ -129,6 +129,54 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+src/deleting_functions.o: src/deleting_functions.cpp.o
+.PHONY : src/deleting_functions.o
+
+# target to build an object file
+src/deleting_functions.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/deleting_functions.cpp.o
+.PHONY : src/deleting_functions.cpp.o
+
+src/deleting_functions.i: src/deleting_functions.cpp.i
+.PHONY : src/deleting_functions.i
+
+# target to preprocess a source file
+src/deleting_functions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/deleting_functions.cpp.i
+.PHONY : src/deleting_functions.cpp.i
+
+src/deleting_functions.s: src/deleting_functions.cpp.s
+.PHONY : src/deleting_functions.s
+
+# target to generate assembly for a file
+src/deleting_functions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/deleting_functions.cpp.s
+.PHONY : src/deleting_functions.cpp.s
+
+src/deleting_functions2.o: src/deleting_functions2.cpp.o
+.PHONY : src/deleting_functions2.o
+
+# target to build an object file
+src/deleting_functions2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/deleting_functions2.cpp.o
+.PHONY : src/deleting_functions2.cpp.o
+
+src/deleting_functions2.i: src/deleting_functions2.cpp.i
+.PHONY : src/deleting_functions2.i
+
+# target to preprocess a source file
+src/deleting_functions2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/deleting_functions2.cpp.i
+.PHONY : src/deleting_functions2.cpp.i
+
+src/deleting_functions2.s: src/deleting_functions2.cpp.s
+.PHONY : src/deleting_functions2.s
+
+# target to generate assembly for a file
+src/deleting_functions2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/deleting_functions2.cpp.s
+.PHONY : src/deleting_functions2.cpp.s
+
 src/func_overload_func_templates.o: src/func_overload_func_templates.cpp.o
 .PHONY : src/func_overload_func_templates.o
 
@@ -234,6 +282,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
+	@echo "... src/deleting_functions.o"
+	@echo "... src/deleting_functions.i"
+	@echo "... src/deleting_functions.s"
+	@echo "... src/deleting_functions2.o"
+	@echo "... src/deleting_functions2.i"
+	@echo "... src/deleting_functions2.s"
 	@echo "... src/func_overload_func_templates.o"
 	@echo "... src/func_overload_func_templates.i"
 	@echo "... src/func_overload_func_templates.s"

@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/main.dir/src/deleting_functions.cpp.o"
+  "CMakeFiles/main.dir/src/deleting_functions.cpp.o.d"
+  "CMakeFiles/main.dir/src/deleting_functions2.cpp.o"
+  "CMakeFiles/main.dir/src/deleting_functions2.cpp.o.d"
   "CMakeFiles/main.dir/src/func_overload_func_templates.cpp.o"
   "CMakeFiles/main.dir/src/func_overload_func_templates.cpp.o.d"
   "CMakeFiles/main.dir/src/function_overload_differentiation.cpp.o"
