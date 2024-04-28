@@ -1,7 +1,7 @@
 #include <iostream>
 #include "../include/deleting_functions2.h"
 
-void printInt2(int a)
+void printInt2(int a)	// though in previous example double value was promoted to int type when deleting functions lays restrictions on overloaded function resolution
 {
 	std::cout << "Print: " << a << '\n';
 }
