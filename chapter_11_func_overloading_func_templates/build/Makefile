@@ -273,6 +273,30 @@ src/function_overload_resolution.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/function_overload_resolution.cpp.s
 .PHONY : src/function_overload_resolution.cpp.s
 
+src/function_templates.o: src/function_templates.cpp.o
+.PHONY : src/function_templates.o
+
+# target to build an object file
+src/function_templates.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/function_templates.cpp.o
+.PHONY : src/function_templates.cpp.o
+
+src/function_templates.i: src/function_templates.cpp.i
+.PHONY : src/function_templates.i
+
+# target to preprocess a source file
+src/function_templates.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/function_templates.cpp.i
+.PHONY : src/function_templates.cpp.i
+
+src/function_templates.s: src/function_templates.cpp.s
+.PHONY : src/function_templates.s
+
+# target to generate assembly for a file
+src/function_templates.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/function_templates.cpp.s
+.PHONY : src/function_templates.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -324,6 +348,9 @@ help:
 	@echo "... src/function_overload_resolution.o"
 	@echo "... src/function_overload_resolution.i"
 	@echo "... src/function_overload_resolution.s"
+	@echo "... src/function_templates.o"
+	@echo "... src/function_templates.i"
+	@echo "... src/function_templates.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

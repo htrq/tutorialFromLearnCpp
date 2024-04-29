@@ -1,5 +1,5 @@
-CMakeFiles/main.dir/src/main.cpp.o: \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/main.cpp \
+CMakeFiles/main.dir/src/function_templates.cpp.o: \
+ /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/function_templates.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -152,10 +152,4 @@ CMakeFiles/main.dir/src/main.cpp.o: \
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
  /usr/include/c++/12/bits/istream.tcc \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/../include/func_overload_func_templates.h \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/../include/function_overload_differentiation.h \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/../include/function_overload_resolution.h \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/../include/deleting_functions.h \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/../include/deleting_functions2.h \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/../include/default_arguements.h \
  /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/../include/function_templates.h
