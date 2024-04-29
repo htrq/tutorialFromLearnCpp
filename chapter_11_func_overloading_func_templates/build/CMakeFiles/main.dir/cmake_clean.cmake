@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/main.dir/src/default_arguements.cpp.o"
+  "CMakeFiles/main.dir/src/default_arguements.cpp.o.d"
   "CMakeFiles/main.dir/src/deleting_functions.cpp.o"
   "CMakeFiles/main.dir/src/deleting_functions.cpp.o.d"
   "CMakeFiles/main.dir/src/deleting_functions2.cpp.o"

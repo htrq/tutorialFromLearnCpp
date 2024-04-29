@@ -129,6 +129,30 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+src/default_arguements.o: src/default_arguements.cpp.o
+.PHONY : src/default_arguements.o
+
+# target to build an object file
+src/default_arguements.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/default_arguements.cpp.o
+.PHONY : src/default_arguements.cpp.o
+
+src/default_arguements.i: src/default_arguements.cpp.i
+.PHONY : src/default_arguements.i
+
+# target to preprocess a source file
+src/default_arguements.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/default_arguements.cpp.i
+.PHONY : src/default_arguements.cpp.i
+
+src/default_arguements.s: src/default_arguements.cpp.s
+.PHONY : src/default_arguements.s
+
+# target to generate assembly for a file
+src/default_arguements.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/default_arguements.cpp.s
+.PHONY : src/default_arguements.cpp.s
+
 src/deleting_functions.o: src/deleting_functions.cpp.o
 .PHONY : src/deleting_functions.o
 
@@ -282,6 +306,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
+	@echo "... src/default_arguements.o"
+	@echo "... src/default_arguements.i"
+	@echo "... src/default_arguements.s"
 	@echo "... src/deleting_functions.o"
 	@echo "... src/deleting_functions.i"
 	@echo "... src/deleting_functions.s"
