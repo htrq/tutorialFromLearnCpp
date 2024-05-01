@@ -1,0 +1,3 @@
+/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_12_compound_types/build/CMakeFiles/main.dir
+/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_12_compound_types/build/CMakeFiles/edit_cache.dir
+/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_12_compound_types/build/CMakeFiles/rebuild_cache.dir
