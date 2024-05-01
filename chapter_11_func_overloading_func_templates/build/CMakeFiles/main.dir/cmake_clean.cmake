@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/main.dir/src/constexpr_function_template.cpp.o"
+  "CMakeFiles/main.dir/src/constexpr_function_template.cpp.o.d"
   "CMakeFiles/main.dir/src/default_arguements.cpp.o"
   "CMakeFiles/main.dir/src/default_arguements.cpp.o.d"
   "CMakeFiles/main.dir/src/deleting_functions.cpp.o"
@@ -15,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/function_templates.cpp.o.d"
   "CMakeFiles/main.dir/src/main.cpp.o"
   "CMakeFiles/main.dir/src/main.cpp.o.d"
+  "CMakeFiles/main.dir/src/templates_with_multiple_types.cpp.o"
+  "CMakeFiles/main.dir/src/templates_with_multiple_types.cpp.o.d"
   "main"
   "main.pdb"
 )

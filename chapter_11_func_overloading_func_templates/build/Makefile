@@ -129,6 +129,30 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+src/constexpr_function_template.o: src/constexpr_function_template.cpp.o
+.PHONY : src/constexpr_function_template.o
+
+# target to build an object file
+src/constexpr_function_template.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/constexpr_function_template.cpp.o
+.PHONY : src/constexpr_function_template.cpp.o
+
+src/constexpr_function_template.i: src/constexpr_function_template.cpp.i
+.PHONY : src/constexpr_function_template.i
+
+# target to preprocess a source file
+src/constexpr_function_template.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/constexpr_function_template.cpp.i
+.PHONY : src/constexpr_function_template.cpp.i
+
+src/constexpr_function_template.s: src/constexpr_function_template.cpp.s
+.PHONY : src/constexpr_function_template.s
+
+# target to generate assembly for a file
+src/constexpr_function_template.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/constexpr_function_template.cpp.s
+.PHONY : src/constexpr_function_template.cpp.s
+
 src/default_arguements.o: src/default_arguements.cpp.o
 .PHONY : src/default_arguements.o
 
@@ -321,6 +345,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/templates_with_multiple_types.o: src/templates_with_multiple_types.cpp.o
+.PHONY : src/templates_with_multiple_types.o
+
+# target to build an object file
+src/templates_with_multiple_types.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/templates_with_multiple_types.cpp.o
+.PHONY : src/templates_with_multiple_types.cpp.o
+
+src/templates_with_multiple_types.i: src/templates_with_multiple_types.cpp.i
+.PHONY : src/templates_with_multiple_types.i
+
+# target to preprocess a source file
+src/templates_with_multiple_types.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/templates_with_multiple_types.cpp.i
+.PHONY : src/templates_with_multiple_types.cpp.i
+
+src/templates_with_multiple_types.s: src/templates_with_multiple_types.cpp.s
+.PHONY : src/templates_with_multiple_types.s
+
+# target to generate assembly for a file
+src/templates_with_multiple_types.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/templates_with_multiple_types.cpp.s
+.PHONY : src/templates_with_multiple_types.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -330,6 +378,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
+	@echo "... src/constexpr_function_template.o"
+	@echo "... src/constexpr_function_template.i"
+	@echo "... src/constexpr_function_template.s"
 	@echo "... src/default_arguements.o"
 	@echo "... src/default_arguements.i"
 	@echo "... src/default_arguements.s"
@@ -354,6 +405,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/templates_with_multiple_types.o"
+	@echo "... src/templates_with_multiple_types.i"
+	@echo "... src/templates_with_multiple_types.s"
 .PHONY : help
 
 
