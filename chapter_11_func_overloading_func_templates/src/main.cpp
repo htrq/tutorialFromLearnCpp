@@ -8,7 +8,7 @@
 #include "../include/function_templates.h"
 #include "../include/templates_with_multiple_types.h"
 #include "../include/constexpr_function_template.h"
-
+#include "../include/conclusion_tasks.h"
 
 int main()
 {
@@ -19,7 +19,8 @@ int main()
 			      "5-default arguements\n"
 			      "6-function templates\n"
 			      "7-templates with multiple types\n"
-			      "8-constexpr function template\n";
+			      "8-constexpr function template\n"
+			      "9-conclusion tasks\n";
 	int choice{};
 	std::cin >> choice;
 	switch(choice)
@@ -48,6 +49,9 @@ int main()
 		return 0;
 	case 8:
 		constexpr_function_template();
+		return 0;
+	case 9:
+		conclusion_tasks();
 		return 0;
 	default:
 		std::cout << "invalid input\n";

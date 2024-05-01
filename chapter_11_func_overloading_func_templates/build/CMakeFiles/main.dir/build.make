@@ -83,10 +83,24 @@ CMakeFiles/main.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
 
+CMakeFiles/main.dir/src/conclusion_tasks.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/conclusion_tasks.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/conclusion_tasks.cpp
+CMakeFiles/main.dir/src/conclusion_tasks.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/conclusion_tasks.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/conclusion_tasks.cpp.o -MF CMakeFiles/main.dir/src/conclusion_tasks.cpp.o.d -o CMakeFiles/main.dir/src/conclusion_tasks.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/conclusion_tasks.cpp
+
+CMakeFiles/main.dir/src/conclusion_tasks.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/conclusion_tasks.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/conclusion_tasks.cpp > CMakeFiles/main.dir/src/conclusion_tasks.cpp.i
+
+CMakeFiles/main.dir/src/conclusion_tasks.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/conclusion_tasks.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/conclusion_tasks.cpp -o CMakeFiles/main.dir/src/conclusion_tasks.cpp.s
+
 CMakeFiles/main.dir/src/constexpr_function_template.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/constexpr_function_template.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/constexpr_function_template.cpp
 CMakeFiles/main.dir/src/constexpr_function_template.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/constexpr_function_template.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/constexpr_function_template.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/constexpr_function_template.cpp.o -MF CMakeFiles/main.dir/src/constexpr_function_template.cpp.o.d -o CMakeFiles/main.dir/src/constexpr_function_template.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/constexpr_function_template.cpp
 
 CMakeFiles/main.dir/src/constexpr_function_template.cpp.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/main.dir/src/constexpr_function_template.cpp.s: cmake_force
 CMakeFiles/main.dir/src/default_arguements.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/default_arguements.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/default_arguements.cpp
 CMakeFiles/main.dir/src/default_arguements.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/default_arguements.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/default_arguements.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/default_arguements.cpp.o -MF CMakeFiles/main.dir/src/default_arguements.cpp.o.d -o CMakeFiles/main.dir/src/default_arguements.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/default_arguements.cpp
 
 CMakeFiles/main.dir/src/default_arguements.cpp.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/main.dir/src/default_arguements.cpp.s: cmake_force
 CMakeFiles/main.dir/src/deleting_functions.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/deleting_functions.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/deleting_functions.cpp
 CMakeFiles/main.dir/src/deleting_functions.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/deleting_functions.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/deleting_functions.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/deleting_functions.cpp.o -MF CMakeFiles/main.dir/src/deleting_functions.cpp.o.d -o CMakeFiles/main.dir/src/deleting_functions.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/deleting_functions.cpp
 
 CMakeFiles/main.dir/src/deleting_functions.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/main.dir/src/deleting_functions.cpp.s: cmake_force
 CMakeFiles/main.dir/src/deleting_functions2.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/deleting_functions2.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/deleting_functions2.cpp
 CMakeFiles/main.dir/src/deleting_functions2.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/deleting_functions2.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/deleting_functions2.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/deleting_functions2.cpp.o -MF CMakeFiles/main.dir/src/deleting_functions2.cpp.o.d -o CMakeFiles/main.dir/src/deleting_functions2.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/deleting_functions2.cpp
 
 CMakeFiles/main.dir/src/deleting_functions2.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/main.dir/src/deleting_functions2.cpp.s: cmake_force
 CMakeFiles/main.dir/src/func_overload_func_templates.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/func_overload_func_templates.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/func_overload_func_templates.cpp
 CMakeFiles/main.dir/src/func_overload_func_templates.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/func_overload_func_templates.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/func_overload_func_templates.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/func_overload_func_templates.cpp.o -MF CMakeFiles/main.dir/src/func_overload_func_templates.cpp.o.d -o CMakeFiles/main.dir/src/func_overload_func_templates.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/func_overload_func_templates.cpp
 
 CMakeFiles/main.dir/src/func_overload_func_templates.cpp.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/main.dir/src/func_overload_func_templates.cpp.s: cmake_force
 CMakeFiles/main.dir/src/function_overload_differentiation.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/function_overload_differentiation.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/function_overload_differentiation.cpp
 CMakeFiles/main.dir/src/function_overload_differentiation.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/function_overload_differentiation.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/function_overload_differentiation.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/function_overload_differentiation.cpp.o -MF CMakeFiles/main.dir/src/function_overload_differentiation.cpp.o.d -o CMakeFiles/main.dir/src/function_overload_differentiation.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/function_overload_differentiation.cpp
 
 CMakeFiles/main.dir/src/function_overload_differentiation.cpp.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/main.dir/src/function_overload_differentiation.cpp.s: cmake_force
 CMakeFiles/main.dir/src/function_overload_resolution.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/function_overload_resolution.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/function_overload_resolution.cpp
 CMakeFiles/main.dir/src/function_overload_resolution.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/function_overload_resolution.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/function_overload_resolution.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/function_overload_resolution.cpp.o -MF CMakeFiles/main.dir/src/function_overload_resolution.cpp.o.d -o CMakeFiles/main.dir/src/function_overload_resolution.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/function_overload_resolution.cpp
 
 CMakeFiles/main.dir/src/function_overload_resolution.cpp.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/main.dir/src/function_overload_resolution.cpp.s: cmake_force
 CMakeFiles/main.dir/src/function_templates.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/function_templates.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/function_templates.cpp
 CMakeFiles/main.dir/src/function_templates.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/function_templates.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/src/function_templates.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/function_templates.cpp.o -MF CMakeFiles/main.dir/src/function_templates.cpp.o.d -o CMakeFiles/main.dir/src/function_templates.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/function_templates.cpp
 
 CMakeFiles/main.dir/src/function_templates.cpp.i: cmake_force
@@ -198,7 +212,7 @@ CMakeFiles/main.dir/src/function_templates.cpp.s: cmake_force
 CMakeFiles/main.dir/src/templates_with_multiple_types.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/templates_with_multiple_types.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/templates_with_multiple_types.cpp
 CMakeFiles/main.dir/src/templates_with_multiple_types.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/src/templates_with_multiple_types.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/src/templates_with_multiple_types.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/templates_with_multiple_types.cpp.o -MF CMakeFiles/main.dir/src/templates_with_multiple_types.cpp.o.d -o CMakeFiles/main.dir/src/templates_with_multiple_types.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/src/templates_with_multiple_types.cpp
 
 CMakeFiles/main.dir/src/templates_with_multiple_types.cpp.i: cmake_force
@@ -212,6 +226,7 @@ CMakeFiles/main.dir/src/templates_with_multiple_types.cpp.s: cmake_force
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/src/main.cpp.o" \
+"CMakeFiles/main.dir/src/conclusion_tasks.cpp.o" \
 "CMakeFiles/main.dir/src/constexpr_function_template.cpp.o" \
 "CMakeFiles/main.dir/src/default_arguements.cpp.o" \
 "CMakeFiles/main.dir/src/deleting_functions.cpp.o" \
@@ -226,6 +241,7 @@ main_OBJECTS = \
 main_EXTERNAL_OBJECTS =
 
 main: CMakeFiles/main.dir/src/main.cpp.o
+main: CMakeFiles/main.dir/src/conclusion_tasks.cpp.o
 main: CMakeFiles/main.dir/src/constexpr_function_template.cpp.o
 main: CMakeFiles/main.dir/src/default_arguements.cpp.o
 main: CMakeFiles/main.dir/src/deleting_functions.cpp.o
@@ -237,7 +253,7 @@ main: CMakeFiles/main.dir/src/function_templates.cpp.o
 main: CMakeFiles/main.dir/src/templates_with_multiple_types.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_11_func_overloading_func_templates/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

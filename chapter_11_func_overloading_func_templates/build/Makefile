@@ -129,6 +129,30 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+src/conclusion_tasks.o: src/conclusion_tasks.cpp.o
+.PHONY : src/conclusion_tasks.o
+
+# target to build an object file
+src/conclusion_tasks.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/conclusion_tasks.cpp.o
+.PHONY : src/conclusion_tasks.cpp.o
+
+src/conclusion_tasks.i: src/conclusion_tasks.cpp.i
+.PHONY : src/conclusion_tasks.i
+
+# target to preprocess a source file
+src/conclusion_tasks.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/conclusion_tasks.cpp.i
+.PHONY : src/conclusion_tasks.cpp.i
+
+src/conclusion_tasks.s: src/conclusion_tasks.cpp.s
+.PHONY : src/conclusion_tasks.s
+
+# target to generate assembly for a file
+src/conclusion_tasks.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/conclusion_tasks.cpp.s
+.PHONY : src/conclusion_tasks.cpp.s
+
 src/constexpr_function_template.o: src/constexpr_function_template.cpp.o
 .PHONY : src/constexpr_function_template.o
 
@@ -378,6 +402,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
+	@echo "... src/conclusion_tasks.o"
+	@echo "... src/conclusion_tasks.i"
+	@echo "... src/conclusion_tasks.s"
 	@echo "... src/constexpr_function_template.o"
 	@echo "... src/constexpr_function_template.i"
 	@echo "... src/constexpr_function_template.s"
