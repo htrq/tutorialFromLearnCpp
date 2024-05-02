@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/lvalue_ref_to_const.cpp.o.d"
   "CMakeFiles/main.dir/src/main.cpp.o"
   "CMakeFiles/main.dir/src/main.cpp.o.d"
+  "CMakeFiles/main.dir/src/pass_by_lvalue_ref.cpp.o"
+  "CMakeFiles/main.dir/src/pass_by_lvalue_ref.cpp.o.d"
   "main"
   "main.pdb"
 )

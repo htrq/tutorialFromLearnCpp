@@ -201,6 +201,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/pass_by_lvalue_ref.o: src/pass_by_lvalue_ref.cpp.o
+.PHONY : src/pass_by_lvalue_ref.o
+
+# target to build an object file
+src/pass_by_lvalue_ref.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/pass_by_lvalue_ref.cpp.o
+.PHONY : src/pass_by_lvalue_ref.cpp.o
+
+src/pass_by_lvalue_ref.i: src/pass_by_lvalue_ref.cpp.i
+.PHONY : src/pass_by_lvalue_ref.i
+
+# target to preprocess a source file
+src/pass_by_lvalue_ref.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/pass_by_lvalue_ref.cpp.i
+.PHONY : src/pass_by_lvalue_ref.cpp.i
+
+src/pass_by_lvalue_ref.s: src/pass_by_lvalue_ref.cpp.s
+.PHONY : src/pass_by_lvalue_ref.s
+
+# target to generate assembly for a file
+src/pass_by_lvalue_ref.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/pass_by_lvalue_ref.cpp.s
+.PHONY : src/pass_by_lvalue_ref.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,6 +243,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/pass_by_lvalue_ref.o"
+	@echo "... src/pass_by_lvalue_ref.i"
+	@echo "... src/pass_by_lvalue_ref.s"
 .PHONY : help
 
 

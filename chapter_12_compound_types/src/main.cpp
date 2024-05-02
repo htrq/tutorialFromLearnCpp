@@ -1,11 +1,13 @@
 #include <iostream>
 #include "../include/lvalue_ref.h"
 #include "../include/lvalue_ref_to_const.h"
+#include "../include/pass_by_lvalue_ref.h"
 
 int main()
 {
 	std::cout << "Enter section: 1 - lvalue reference\n"
-			"2 - lvalue to const reference\n";	
+			"2 - lvalue to const reference\n"
+			"3 - pass by lvalue reference example\n";	
 	int choice{};
 	std::cin >> choice;
 	switch (choice)
@@ -15,6 +17,9 @@ int main()
 		return 0;
 	case 2:
 		lvalue_ref_to_const();
+		return 0;
+	case 3: 
+		pass_by_lvalue_ref();
 		return 0;
 	default:
 		std::cout << "invalid input\n";
