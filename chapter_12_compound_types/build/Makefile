@@ -153,6 +153,30 @@ src/lvalue_ref.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/lvalue_ref.cpp.s
 .PHONY : src/lvalue_ref.cpp.s
 
+src/lvalue_ref_to_const.o: src/lvalue_ref_to_const.cpp.o
+.PHONY : src/lvalue_ref_to_const.o
+
+# target to build an object file
+src/lvalue_ref_to_const.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/lvalue_ref_to_const.cpp.o
+.PHONY : src/lvalue_ref_to_const.cpp.o
+
+src/lvalue_ref_to_const.i: src/lvalue_ref_to_const.cpp.i
+.PHONY : src/lvalue_ref_to_const.i
+
+# target to preprocess a source file
+src/lvalue_ref_to_const.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/lvalue_ref_to_const.cpp.i
+.PHONY : src/lvalue_ref_to_const.cpp.i
+
+src/lvalue_ref_to_const.s: src/lvalue_ref_to_const.cpp.s
+.PHONY : src/lvalue_ref_to_const.s
+
+# target to generate assembly for a file
+src/lvalue_ref_to_const.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/lvalue_ref_to_const.cpp.s
+.PHONY : src/lvalue_ref_to_const.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -189,6 +213,9 @@ help:
 	@echo "... src/lvalue_ref.o"
 	@echo "... src/lvalue_ref.i"
 	@echo "... src/lvalue_ref.s"
+	@echo "... src/lvalue_ref_to_const.o"
+	@echo "... src/lvalue_ref_to_const.i"
+	@echo "... src/lvalue_ref_to_const.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
