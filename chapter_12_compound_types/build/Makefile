@@ -225,6 +225,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/null_pointer.o: src/null_pointer.cpp.o
+.PHONY : src/null_pointer.o
+
+# target to build an object file
+src/null_pointer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/null_pointer.cpp.o
+.PHONY : src/null_pointer.cpp.o
+
+src/null_pointer.i: src/null_pointer.cpp.i
+.PHONY : src/null_pointer.i
+
+# target to preprocess a source file
+src/null_pointer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/null_pointer.cpp.i
+.PHONY : src/null_pointer.cpp.i
+
+src/null_pointer.s: src/null_pointer.cpp.s
+.PHONY : src/null_pointer.s
+
+# target to generate assembly for a file
+src/null_pointer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/null_pointer.cpp.s
+.PHONY : src/null_pointer.cpp.s
+
 src/pass_by_lvalue_ref.o: src/pass_by_lvalue_ref.cpp.o
 .PHONY : src/pass_by_lvalue_ref.o
 
@@ -270,6 +294,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/null_pointer.o"
+	@echo "... src/null_pointer.i"
+	@echo "... src/null_pointer.s"
 	@echo "... src/pass_by_lvalue_ref.o"
 	@echo "... src/pass_by_lvalue_ref.i"
 	@echo "... src/pass_by_lvalue_ref.s"
