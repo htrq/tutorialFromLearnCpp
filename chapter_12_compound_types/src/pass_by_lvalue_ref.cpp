@@ -23,7 +23,10 @@ void pass_by_lvalue_ref()
 	std::cout << "x after addOne(): " << x << '\n';
 
 	std::cout << std::boolalpha;
+	std::cout << sizeof(void*) << '\n';
 	std::cout << isSmall(int) << '\n';
 	std::cout << isSmall(double) << '\n';
 	std::cout << isSmall(S) << '\n';
+
+	std::cout << &x << " address of x\n";
 }

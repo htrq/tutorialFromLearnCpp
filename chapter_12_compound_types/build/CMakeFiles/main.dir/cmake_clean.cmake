@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/main.dir/src/intro_pointers.cpp.o"
+  "CMakeFiles/main.dir/src/intro_pointers.cpp.o.d"
   "CMakeFiles/main.dir/src/lvalue_ref.cpp.o"
   "CMakeFiles/main.dir/src/lvalue_ref.cpp.o.d"
   "CMakeFiles/main.dir/src/lvalue_ref_to_const.cpp.o"

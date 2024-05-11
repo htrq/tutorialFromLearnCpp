@@ -1,5 +1,5 @@
-CMakeFiles/main.dir/src/main.cpp.o: \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_12_compound_types/src/main.cpp \
+CMakeFiles/main.dir/src/intro_pointers.cpp.o: \
+ /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_12_compound_types/src/intro_pointers.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -152,7 +152,4 @@ CMakeFiles/main.dir/src/main.cpp.o: \
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
  /usr/include/c++/12/bits/istream.tcc \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_12_compound_types/src/../include/lvalue_ref.h \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_12_compound_types/src/../include/lvalue_ref_to_const.h \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_12_compound_types/src/../include/intro_pointers.h \
- /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_12_compound_types/src/../include/pass_by_lvalue_ref.h
+ /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_12_compound_types/src/../include/intro_pointers.h

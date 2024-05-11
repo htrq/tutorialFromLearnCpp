@@ -129,6 +129,30 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+src/intro_pointers.o: src/intro_pointers.cpp.o
+.PHONY : src/intro_pointers.o
+
+# target to build an object file
+src/intro_pointers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/intro_pointers.cpp.o
+.PHONY : src/intro_pointers.cpp.o
+
+src/intro_pointers.i: src/intro_pointers.cpp.i
+.PHONY : src/intro_pointers.i
+
+# target to preprocess a source file
+src/intro_pointers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/intro_pointers.cpp.i
+.PHONY : src/intro_pointers.cpp.i
+
+src/intro_pointers.s: src/intro_pointers.cpp.s
+.PHONY : src/intro_pointers.s
+
+# target to generate assembly for a file
+src/intro_pointers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/intro_pointers.cpp.s
+.PHONY : src/intro_pointers.cpp.s
+
 src/lvalue_ref.o: src/lvalue_ref.cpp.o
 .PHONY : src/lvalue_ref.o
 
@@ -234,6 +258,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
+	@echo "... src/intro_pointers.o"
+	@echo "... src/intro_pointers.i"
+	@echo "... src/intro_pointers.s"
 	@echo "... src/lvalue_ref.o"
 	@echo "... src/lvalue_ref.i"
 	@echo "... src/lvalue_ref.s"
