@@ -249,6 +249,30 @@ src/null_pointer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/null_pointer.cpp.s
 .PHONY : src/null_pointer.cpp.s
 
+src/pass_by_address.o: src/pass_by_address.cpp.o
+.PHONY : src/pass_by_address.o
+
+# target to build an object file
+src/pass_by_address.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/pass_by_address.cpp.o
+.PHONY : src/pass_by_address.cpp.o
+
+src/pass_by_address.i: src/pass_by_address.cpp.i
+.PHONY : src/pass_by_address.i
+
+# target to preprocess a source file
+src/pass_by_address.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/pass_by_address.cpp.i
+.PHONY : src/pass_by_address.cpp.i
+
+src/pass_by_address.s: src/pass_by_address.cpp.s
+.PHONY : src/pass_by_address.s
+
+# target to generate assembly for a file
+src/pass_by_address.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/pass_by_address.cpp.s
+.PHONY : src/pass_by_address.cpp.s
+
 src/pass_by_lvalue_ref.o: src/pass_by_lvalue_ref.cpp.o
 .PHONY : src/pass_by_lvalue_ref.o
 
@@ -272,6 +296,30 @@ src/pass_by_lvalue_ref.s: src/pass_by_lvalue_ref.cpp.s
 src/pass_by_lvalue_ref.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/pass_by_lvalue_ref.cpp.s
 .PHONY : src/pass_by_lvalue_ref.cpp.s
+
+src/pointers_and_const.o: src/pointers_and_const.cpp.o
+.PHONY : src/pointers_and_const.o
+
+# target to build an object file
+src/pointers_and_const.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/pointers_and_const.cpp.o
+.PHONY : src/pointers_and_const.cpp.o
+
+src/pointers_and_const.i: src/pointers_and_const.cpp.i
+.PHONY : src/pointers_and_const.i
+
+# target to preprocess a source file
+src/pointers_and_const.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/pointers_and_const.cpp.i
+.PHONY : src/pointers_and_const.cpp.i
+
+src/pointers_and_const.s: src/pointers_and_const.cpp.s
+.PHONY : src/pointers_and_const.s
+
+# target to generate assembly for a file
+src/pointers_and_const.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/src/pointers_and_const.cpp.s
+.PHONY : src/pointers_and_const.cpp.s
 
 # Help Target
 help:
@@ -297,9 +345,15 @@ help:
 	@echo "... src/null_pointer.o"
 	@echo "... src/null_pointer.i"
 	@echo "... src/null_pointer.s"
+	@echo "... src/pass_by_address.o"
+	@echo "... src/pass_by_address.i"
+	@echo "... src/pass_by_address.s"
 	@echo "... src/pass_by_lvalue_ref.o"
 	@echo "... src/pass_by_lvalue_ref.i"
 	@echo "... src/pass_by_lvalue_ref.s"
+	@echo "... src/pointers_and_const.o"
+	@echo "... src/pointers_and_const.i"
+	@echo "... src/pointers_and_const.s"
 .PHONY : help
 
 

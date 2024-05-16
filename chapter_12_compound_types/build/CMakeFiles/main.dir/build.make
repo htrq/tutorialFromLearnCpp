@@ -139,10 +139,24 @@ CMakeFiles/main.dir/src/null_pointer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/null_pointer.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_12_compound_types/src/null_pointer.cpp -o CMakeFiles/main.dir/src/null_pointer.cpp.s
 
+CMakeFiles/main.dir/src/pass_by_address.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/pass_by_address.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_12_compound_types/src/pass_by_address.cpp
+CMakeFiles/main.dir/src/pass_by_address.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_12_compound_types/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/pass_by_address.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/pass_by_address.cpp.o -MF CMakeFiles/main.dir/src/pass_by_address.cpp.o.d -o CMakeFiles/main.dir/src/pass_by_address.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_12_compound_types/src/pass_by_address.cpp
+
+CMakeFiles/main.dir/src/pass_by_address.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/pass_by_address.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_12_compound_types/src/pass_by_address.cpp > CMakeFiles/main.dir/src/pass_by_address.cpp.i
+
+CMakeFiles/main.dir/src/pass_by_address.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/pass_by_address.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_12_compound_types/src/pass_by_address.cpp -o CMakeFiles/main.dir/src/pass_by_address.cpp.s
+
 CMakeFiles/main.dir/src/pass_by_lvalue_ref.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/pass_by_lvalue_ref.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_12_compound_types/src/pass_by_lvalue_ref.cpp
 CMakeFiles/main.dir/src/pass_by_lvalue_ref.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_12_compound_types/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/pass_by_lvalue_ref.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_12_compound_types/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/pass_by_lvalue_ref.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/pass_by_lvalue_ref.cpp.o -MF CMakeFiles/main.dir/src/pass_by_lvalue_ref.cpp.o.d -o CMakeFiles/main.dir/src/pass_by_lvalue_ref.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_12_compound_types/src/pass_by_lvalue_ref.cpp
 
 CMakeFiles/main.dir/src/pass_by_lvalue_ref.cpp.i: cmake_force
@@ -153,6 +167,20 @@ CMakeFiles/main.dir/src/pass_by_lvalue_ref.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/pass_by_lvalue_ref.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_12_compound_types/src/pass_by_lvalue_ref.cpp -o CMakeFiles/main.dir/src/pass_by_lvalue_ref.cpp.s
 
+CMakeFiles/main.dir/src/pointers_and_const.cpp.o: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/pointers_and_const.cpp.o: /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_12_compound_types/src/pointers_and_const.cpp
+CMakeFiles/main.dir/src/pointers_and_const.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_12_compound_types/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/pointers_and_const.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/pointers_and_const.cpp.o -MF CMakeFiles/main.dir/src/pointers_and_const.cpp.o.d -o CMakeFiles/main.dir/src/pointers_and_const.cpp.o -c /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_12_compound_types/src/pointers_and_const.cpp
+
+CMakeFiles/main.dir/src/pointers_and_const.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/pointers_and_const.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_12_compound_types/src/pointers_and_const.cpp > CMakeFiles/main.dir/src/pointers_and_const.cpp.i
+
+CMakeFiles/main.dir/src/pointers_and_const.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/pointers_and_const.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_12_compound_types/src/pointers_and_const.cpp -o CMakeFiles/main.dir/src/pointers_and_const.cpp.s
+
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/src/main.cpp.o" \
@@ -160,7 +188,9 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/src/lvalue_ref.cpp.o" \
 "CMakeFiles/main.dir/src/lvalue_ref_to_const.cpp.o" \
 "CMakeFiles/main.dir/src/null_pointer.cpp.o" \
-"CMakeFiles/main.dir/src/pass_by_lvalue_ref.cpp.o"
+"CMakeFiles/main.dir/src/pass_by_address.cpp.o" \
+"CMakeFiles/main.dir/src/pass_by_lvalue_ref.cpp.o" \
+"CMakeFiles/main.dir/src/pointers_and_const.cpp.o"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
@@ -170,10 +200,12 @@ main: CMakeFiles/main.dir/src/intro_pointers.cpp.o
 main: CMakeFiles/main.dir/src/lvalue_ref.cpp.o
 main: CMakeFiles/main.dir/src/lvalue_ref_to_const.cpp.o
 main: CMakeFiles/main.dir/src/null_pointer.cpp.o
+main: CMakeFiles/main.dir/src/pass_by_address.cpp.o
 main: CMakeFiles/main.dir/src/pass_by_lvalue_ref.cpp.o
+main: CMakeFiles/main.dir/src/pointers_and_const.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_12_compound_types/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mikhail/Programming/cpp/tutorialFromLearnCpp/chapter_12_compound_types/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

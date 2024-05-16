@@ -9,8 +9,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/main.cpp.o.d"
   "CMakeFiles/main.dir/src/null_pointer.cpp.o"
   "CMakeFiles/main.dir/src/null_pointer.cpp.o.d"
+  "CMakeFiles/main.dir/src/pass_by_address.cpp.o"
+  "CMakeFiles/main.dir/src/pass_by_address.cpp.o.d"
   "CMakeFiles/main.dir/src/pass_by_lvalue_ref.cpp.o"
   "CMakeFiles/main.dir/src/pass_by_lvalue_ref.cpp.o.d"
+  "CMakeFiles/main.dir/src/pointers_and_const.cpp.o"
+  "CMakeFiles/main.dir/src/pointers_and_const.cpp.o.d"
   "main"
   "main.pdb"
 )

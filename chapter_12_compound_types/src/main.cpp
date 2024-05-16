@@ -4,6 +4,8 @@
 #include "../include/intro_pointers.h"
 #include "../include/pass_by_lvalue_ref.h"
 #include "../include/null_pointer.h"
+#include "../include/pointers_and_const.h"
+#include "../include/pass_by_address.h"
 
 int main()
 {
@@ -11,7 +13,9 @@ int main()
 			"2 - lvalue to const reference\n"
 			"3 - pass by lvalue reference example\n"
 			"4 - intro pointers\n"
-			"5 - null pointer\n";
+			"5 - null pointer\n"
+			"6 - pointers and const\n"
+			"7 - pass by address\n";
 	int choice{};
 	std::cin >> choice;
 	switch (choice)
@@ -30,6 +34,12 @@ int main()
 		return 0;
 	case 5:
 		null_pointer();
+		return 0;
+	case 6:
+		pointers_and_const();
+		return 0;
+	case 7:
+		pass_by_address();
 		return 0;
 	default:
 		std::cout << "invalid input\n";
