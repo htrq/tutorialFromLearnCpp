@@ -1,0 +1,107 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include <fstream>
+
+void readFromFile(const std::string& filename)
+{
+	std::ifstream fin(filename);
+	std::string temp{};
+
+	while (fin >> temp)
+	{
+		std::cout << temp << '\n';
+	}
+}
+
+class Student
+{
+	int m_id{};
+	float m_avg_grade{};
+	std::string m_first { "First" };
+        std::string m_last { "Last" };	
+	public:
+	Student() {};
+	Student(int id, float average, const std::string& first, const std::string& last)
+		: m_id (id)
+		, m_avg_grade (average)
+		, m_first (first)
+		, m_last (last)
+	{
+	}
+	int getId()
+	{
+		return m_id;
+	}
+
+	float getAvg()
+	{
+		return m_avg_grade;
+	}
+
+	std::string& getFirst()
+	{
+		return m_first;
+	}
+
+	std::string& getLast()
+	{
+		return m_last;
+	}
+
+};
+
+class Course 
+{
+	std::string m_course_name { "Course" };
+	std::vector<Student> m_students;
+public:
+	Course(const std::string& name)
+		: m_course_name (name)
+	{
+	}	
+
+	void addStudent(const Student& student)
+	{
+		m_students.push_back(student);
+	}
+	void getStudents() 
+	{
+		for (auto& a : m_students)
+		{
+			std::cout << a.getFirst() << '\n';
+		}
+	}
+};
+
+int main()
+{
+	Student a1(1, 22.5, "Mick", "Russ");
+	Student a2;
+	std::cout << a1.getFirst() << ' ' << a1.getLast() << '\n';
+	std::cout << a2.getFirst() << ' ' << a2.getLast() << '\n';
+
+	Course comp("comp");
+	comp.addStudent(a1);
+	comp.getStudents();
+
+	readFromFile("text.txt");
+
+
+	std::vector<int> vector1;
+	vector1.push_back(33);
+	std::cout << vector1[0] << '\n';
+	std::cout << vector1[1] << '\n';
+
+	for (size_t i = 0; i < vector1.size(); i++)
+	{
+		std::cout << vector1[i] << '\n';
+	}
+	
+	for (auto a : vector1)
+	{
+		std::cout << a << '\n';
+	}
+
+	return 0;
+}
