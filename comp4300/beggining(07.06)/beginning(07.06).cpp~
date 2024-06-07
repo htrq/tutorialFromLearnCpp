@@ -65,13 +65,7 @@ public:
 	{
 		m_students.push_back(student);
 	}
-	void getStudents() 
-	{
-		for (auto& a : m_students)
-		{
-			std::cout << a.getFirst() << '\n';
-		}
-	}
+	
 };
 
 int main()
