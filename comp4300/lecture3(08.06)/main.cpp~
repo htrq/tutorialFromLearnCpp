@@ -1,0 +1,11 @@
+#include <iostream>
+
+int main(int argс, char * argv[])
+{
+	int arr[4];
+	arr[0] = 1;
+	arr[1] = 11;
+	//*(arr+2) = 111; 
+	std::cout << *(arr+2) << '\n';
+	return 0;
+}
