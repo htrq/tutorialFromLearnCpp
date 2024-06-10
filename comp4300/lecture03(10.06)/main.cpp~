@@ -14,10 +14,6 @@ public:
 	{
 		return m_arr[index];
 	}
-	void set(size_t index, int val) const
-	{
-		m_arr[index] = val;
-	}
 };
 
 
@@ -25,8 +21,6 @@ int main(int argc, char ** argv)
 {
 	IntArray arr(10);
 	std::cout << sizeof(arr) << '\n';
-	std::cout << arr.get(3) << '\n';
-	arr.set(3, 50);
 	std::cout << arr.get(3) << '\n';
 	return 0;
 }
