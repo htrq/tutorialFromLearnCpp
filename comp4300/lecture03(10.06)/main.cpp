@@ -10,6 +10,10 @@ public:
 		, m_arr(new int[size])
 	{
 	}
+	~IntArray()	// destructor
+	{
+		delete [] m_arr;	// delete whatever in m_arr when class destroyed
+	}
 	const int get(size_t index) const
 	{
 		return m_arr[index];
