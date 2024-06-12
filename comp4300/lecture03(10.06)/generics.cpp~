@@ -15,13 +15,13 @@ public:
 	{
 		delete [] m_arr;	// delete whatever in m_arr when class destroyed
 	}
-	const T get(size_t index) const
+	T & operator [](size_t index)
 	{
-		return m_arr[index];
+		return m_arr[index];	// no match for operator [], so i created this by myself
 	}
-	void set(size_t index, T val) const
+	const T & operator [](size_t index) const // this operator overload is for getting value
 	{
-		m_arr[index] = val;
+		return m_arr[index];	
 	}
 };
 
@@ -29,8 +29,11 @@ int main(int argc, char ** argv)
 {
 	DynamicArray<float> arr(10);
 	std::cout << sizeof(arr) << '\n';
-	std::cout << arr.get(3) << '\n';
-	arr.set(3, 50);
-	std::cout << arr.get(3) << '\n';
+	std::cout << arr[3] << '\n';
+	arr.set(3, 30.33);
+	std::cout << arr[3] << '\n';
+	arr[3] = 60;	// because of defined operator[] above this now works
+	std::cout << arr[3] << '\n';
+
 	return 0;
 }
