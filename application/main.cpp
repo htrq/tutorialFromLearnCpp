@@ -27,8 +27,8 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine
         L"Learn to Program Windows",    // Window text
         WS_OVERLAPPEDWINDOW,            // Window style
 
-        // Size and position
-        CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT, CW_USEDEFAULT,
+        // Position and size
+        CW_USEDEFAULT, CW_USEDEFAULT, 800, 400,
 
         NULL,       // Parent window    
         NULL,       // Menu
@@ -75,6 +75,13 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
             EndPaint(hwnd, &ps);
         }
         return 0;
+    case WM_SIZE:
+    {
+        [[maybe_unused]] int width { LOWORD(lParam) };  // for future manipulations
+        [[maybe_unused]] int height { HIWORD(lParam) };
+        return 0;
+
+    }
 
     }
     return DefWindowProc(hwnd, uMsg, wParam, lParam);
